@@ -9,5 +9,9 @@ jobs:
     container:
       image: aschmelyun/cleaver:latest
     steps:
-      - name: Build production assets
-        run: production
+      - name: Running composer install
+        run: composer install
+      - name: Running npm install
+        run: npm install
+      - name: Running npm run production
+        run: npm run production
