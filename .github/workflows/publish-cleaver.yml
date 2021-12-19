@@ -14,4 +14,4 @@ jobs:
           image: aschmelyun/cleaver:latest
           options: -v ${{ github.workspace }}:/var/www
           run: |
-            /var/docker/docker-entrypoint.sh
+            ls -l
