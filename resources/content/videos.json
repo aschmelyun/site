@@ -1,8 +1,0 @@
-{
-  "view": "layout.videos",
-  "path": "/videos",
-  "title": "Videos",
-  "meta_title": "Andrew Schmelyun's Videos",
-  "description": "A full-stack PHP developer with a love for Laravel, Vue, and Docker.",
-  "videos": "/data/videos.json"
-}

@@ -5,7 +5,7 @@
             return $post->view === 'layout.post';
         })->sortByDesc(function($post, $key) {
             return strtotime($post->published);
-        })->take(3)->all();
+        })->take(5)->all();
     @endphp
     @foreach($latestPosts as $post)
         @include('partials.blog.preview', ['post' => $post])
