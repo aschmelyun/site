@@ -3,7 +3,6 @@ let mix = require('laravel-mix'),
     command = require('node-cmd');
 
 require('mix-tailwindcss');
-require('laravel-mix-imagemin');
 
 mix.disableNotifications();
 mix.webpackConfig({
@@ -20,7 +19,6 @@ mix.setPublicPath('./')
    })
    .tailwind('./tailwind.config.js')
    .copy('resources/assets/images/', 'dist/assets/images')
-   .imagemin('dist/assets/images/**/*')
    .version();
 
 mix.browserSync({
