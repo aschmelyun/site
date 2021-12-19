@@ -1,21 +1,17 @@
 name: Compile and publish site
-
 on: push
 
 jobs:
   cleaver:
-    name: Build Cleaver with Docker
+    name: Compile site assets with Docker
     runs-on: ubuntu-latest
-    container:
-      image: aschmelyun/cleaver:latest
-      options: -v /__w/site/site:/var/www
-    defaults:
-      run:
-        working-directory: /var/www
     steps:
-      - name: Running composer install
-        run: composer install
-      - name: Running npm install
-        run: npm install
-      - name: Running npm run production
-        run: npm run production
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Run build command with Docker container
+        uses: addnab/docker-run-action@v3
+        with: 
+          image: aschmelyun/cleaver:latest
+          options: -v ${{ github.workspace }}:/var/www
+          run: |
+            /var/docker/docker-entrypoint.sh
