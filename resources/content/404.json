@@ -1,0 +1,12 @@
+{
+    "view": "layout.404",
+    "path": "/404",
+    "title": "4OH4!",
+    "meta_title": "404",
+    "description": "Either the page you're looking for was removed, or it didn't exist in the first place. Try going back!",
+    "headScripts": [
+        "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+        "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+        "<link href=\"https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap\" rel=\"stylesheet\">"
+    ]
+}

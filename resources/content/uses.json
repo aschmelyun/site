@@ -1,0 +1,99 @@
+{
+  "view": "layout.uses",
+  "path": "/uses",
+  "title": "Uses",
+  "meta_title": "What Andrew Schmelyun Uses",
+  "description": "A full-stack PHP developer with a love for Laravel, Vue, and Docker.",
+  "sections": [
+    {
+      "name": "Hardware",
+      "items": [
+        {
+          "name": "2018 MacBook Pro 15 inch",
+          "description": "My daily driver, the machine I do the bulk of my work on. Not a huge fan of the touch bar, but it's a solid machine all around.",
+          "link": "https://www.apple.com/shop/buy-mac/macbook-pro"
+        },
+        {
+          "name": "Custom Built PC",
+          "description": "What I stream web development on and use to edit my videos. Specs include Ryzen 5 3600, Radeon RX 580, and 16GB of RAM.",
+          "link": "https://pcpartpicker.com/list/VHR6j2"
+        },
+        {
+          "name": "Samsung UR55 Monitor",
+          "description": "After using 2 or even 3 monitor setups for years, I recently switched to this single, larger 4K IPS monitor from Samsung.",
+          "link": "https://www.bestbuy.com/site/samsung-ur55-series-28-ips-4k-uhd-monitor/6386391.p?skuId=6386391"
+        },
+        {
+          "name": "Realspace Magellan 60 Inch Standing Desk",
+          "description": "After I started working fully from home, I really wanted a standing desk that was easy to move up and down but didn't break the bank.",
+          "link": "https://www.officedepot.com/a/products/787781/Realspace-Magellan-60-W-Pneumatic-Height/;jsessionid=0000QSkEGJ1KOmE4wIZKJOJwzJt:1crjkcgcd"
+        },
+        {
+          "name": "MP Select Mini V2",
+          "description": "In my free time, I work on small electronics projects (like Arduino weather monitors). This Monoprice printer is a great entry-level machine.",
+          "link": "https://www.amazon.com/Monoprice-Select-Mini-Printer-Assembled/dp/B073ZLSMFT"
+        }
+      ]
+    },
+    {
+      "name": "Accessories",
+      "items": [
+        {
+          "name": "Audio-Technica ATR2100-USB",
+          "description": "Microphone for streaming and video recording. After using a Blue Snowball iCE for years, I switched to a dynamic microphone for better noise cancellation.",
+          "link": "https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4"
+        },
+        {
+          "name": "Custom Built Keyboard",
+          "description": "Currently am using a custom-built mechanical keyboard, built from the GK64 platform with Kailh Box Jade switches and some thick PBT keycaps.",
+          "link": "https://www.amazon.com/GK64S-Plastic-Aluminum-Keyboard-Bluetooth/dp/B07XBR9RPT/ref=sr_1_5?dchild=1&keywords=gk64&qid=1613465832&sr=8-5"
+        },
+        {
+          "name": "AirPods",
+          "description": "I've gone through a lot of headphones throughout the years, but I absolutely love the mix of portability and decent sound quality these provide.",
+          "link": "https://www.apple.com/airpods/"
+        }
+      ]
+    },
+    {
+      "name": "Software",
+      "items": [
+        {
+          "name": "PHPStorm",
+          "description": "Hands-down my favorite IDE, especially with frameworks like Laravel. I've tried other solutions but always end up coming back to this.",
+          "link": "https://www.jetbrains.com/phpstorm/"
+        },
+        {
+          "name": "Material Theme UI",
+          "description": "The theme that I've been using for years with PHPStorm. I have it set to the Atom One Dark color scheme and use the Fira Code font with ligatures.",
+          "link": "https://plugins.jetbrains.com/plugin/8006-material-theme-ui"
+        },
+        {
+          "name": "OBS",
+          "description": "The application I use to both stream web development and record my screen for video tutorials. The settings I use are mostly standard, set to 60 FPS.",
+          "link": "https://obsproject.com/"
+        },
+        {
+          "name": "Audacity",
+          "description": "Audio for video tutorials is recorded and edited with this free program. I loosely follow a guide from thisinterestsme.com for optimizing the audio.",
+          "link": "https://www.audacityteam.org/"
+        },
+        {
+          "name": "Davinci Resolve",
+          "description": "My current video editor of choice. After going from iMovie to Premiere Pro, I've really enjoyed working with this powerful yet free program.",
+          "link": "https://www.blackmagicdesign.com/products/davinciresolve"
+        },
+        {
+          "name": "iTerm",
+          "description": "An incredibly feature-rich terminal replacement for MacOS. I use it in conjunction with oh-my-zsh and a modified Robby Russell theme.",
+          "link": "https://iterm2.com/"
+        },
+        {
+          "name": "Table Plus",
+          "description": "A great database GUI app for MacOS. It has the unique feature of waiting to commit modifications until you press Cmd + S.",
+          "link": "https://tableplus.com/"
+        }
+      ]
+    }
+  ]
+}

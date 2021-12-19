@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~highlight.js/scss/atom-one-light';
+
+.lang {
+  display: inline-block;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0.28em;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+  }
+
+  &.lang-laravel {
+    &:after {
+      background: #ff2d20;
+    }
+  }
+  &.lang-vue {
+    &:after {
+      background: #42b883;
+    }
+  }
+  &.lang-docker {
+    &:after {
+      background: #2496ed;
+    }
+  }
+}
+.section-heading {
+
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background: #edf2f7;
+    top: 52%;
+    z-index: -1;
+  }
+}
+.blog-content {
+
+  h2 {
+    @apply text-2xl mb-2 mt-8 text-gray-900 font-medium;
+  }
+  p {
+    @apply leading-relaxed mb-4;
+
+    a {
+      @apply text-gray-900 underline transition-colors duration-200;
+    }
+  }
+  ul {
+    > li {
+      a {
+        @apply text-gray-900 underline transition-colors duration-200;
+      }
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+  blockquote {
+    @apply py-2 px-4 mb-4 mx-6 italic border-4 border-r-0 border-t-0 border-b-0 border-gray-200;
+
+    p {
+      margin: 0;
+    }
+  }
+  ul {
+    @apply py-2 px-4 mb-4 mx-6 list-disc;
+  }
+  pre > code {
+    @apply rounded mb-4;
+  }
+}
+.tag-laravel {
+  color: #ff2d20;
+  border-color: #ff2d20;
+}
+.tag-vue {
+  color: #42b883;
+  border-color: #42b883;
+}
+.tag-docker {
+  color: #2496ed;
+  border-color: #2496ed;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}

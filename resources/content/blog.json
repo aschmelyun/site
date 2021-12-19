@@ -1,0 +1,7 @@
+{
+    "view": "layout.blog",
+    "path": "/blog",
+    "title": "Blog",
+    "meta_title": "Andrew Schmelyun's Blog",
+    "description": "A full-stack PHP developer with a love for Laravel, Vue, and Docker."
+}
