@@ -1,0 +1,13 @@
+name: Compile and publish site
+
+on: push
+
+jobs:
+  cleaver:
+    name: Build Cleaver with Docker
+    runs-on: ubuntu-latest
+    container:
+      image: aschmelyun/cleaver:latest
+      steps:
+        - name: Build production assets
+          run: production
