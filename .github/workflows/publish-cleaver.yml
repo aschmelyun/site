@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: aschmelyun/cleaver:latest
+      options: -v /__w/site/site:/var/www
+    defaults:
+      run:
+        working-directory: /var/www
     steps:
       - name: Running composer install
         run: composer install
