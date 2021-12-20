@@ -9,13 +9,13 @@
       "name": "Hardware",
       "items": [
         {
-          "name": "2018 MacBook Pro 15 inch",
-          "description": "My daily driver, the machine I do the bulk of my work on. Not a huge fan of the touch bar, but it's a solid machine all around.",
-          "link": "https://www.apple.com/shop/buy-mac/macbook-pro"
+          "name": "MacBook Air M1",
+          "description": "My daily driver, the machine I do the bulk of my work on. I went with the 8gb version and it's been plenty, even using Docker.",
+          "link": "https://www.apple.com/shop/buy-mac/macbook-air"
         },
         {
           "name": "Custom Built PC",
-          "description": "What I stream web development on and use to edit my videos. Specs include Ryzen 5 3600, Radeon RX 580, and 16GB of RAM.",
+          "description": "What I stream web development on sometimes use to edit my videos. Specs include Ryzen 5 3600, Radeon RX 580, and 16GB of RAM.",
           "link": "https://pcpartpicker.com/list/VHR6j2"
         },
         {
@@ -39,9 +39,9 @@
       "name": "Accessories",
       "items": [
         {
-          "name": "Audio-Technica ATR2100-USB",
-          "description": "Microphone for streaming and video recording. After using a Blue Snowball iCE for years, I switched to a dynamic microphone for better noise cancellation.",
-          "link": "https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4"
+          "name": "Rode Procaster",
+          "description": "Microphone for streaming and video recording. After using a Blue Snowball iCE for years, I switched to this dynamic microphone for better noise cancellation.",
+          "link": "https://www.amazon.com/Rode-Procaster-Broadcast-Dynamic-Microphone/dp/B001IPUJJI/ref=asc_df_B001IPUJJI"
         },
         {
           "name": "Custom Built Keyboard",
@@ -70,7 +70,7 @@
         },
         {
           "name": "OBS",
-          "description": "The application I use to both stream web development and record my screen for video tutorials. The settings I use are mostly standard, set to 60 FPS.",
+          "description": "The application I use to stream web development, and what I used to record my screen with. The settings I use are mostly standard, set to 60 FPS.",
           "link": "https://obsproject.com/"
         },
         {
@@ -79,9 +79,9 @@
           "link": "https://www.audacityteam.org/"
         },
         {
-          "name": "Davinci Resolve",
-          "description": "My current video editor of choice. After going from iMovie to Premiere Pro, I've really enjoyed working with this powerful yet free program.",
-          "link": "https://www.blackmagicdesign.com/products/davinciresolve"
+          "name": "ScreenFlow",
+          "description": "What I use to record and edit all of my tutorial videos and courses. It's MacOS only, but incredibly optimized for that platform.",
+          "link": "https://www.telestream.net/screenflow/overview.htm"
         },
         {
           "name": "iTerm",

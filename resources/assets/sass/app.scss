@@ -50,7 +50,7 @@
 .blog-content {
 
   h2 {
-    @apply text-2xl mb-2 mt-8 text-gray-900 font-medium;
+    @apply text-2xl mb-2 mt-8 text-gray-900 font-semibold;
   }
   p {
     @apply leading-relaxed mb-4;
@@ -81,6 +81,9 @@
   }
   pre > code {
     @apply rounded mb-4;
+  }
+  p > code {
+    @apply rounded py-1 px-2 bg-gray-100;
   }
 }
 .tag-laravel {

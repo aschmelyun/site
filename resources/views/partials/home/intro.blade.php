@@ -1,7 +1,7 @@
 <div class="flex mt-0 lg:mt-12">
     <div class="w-full lg:w-1/2 mt-4 lg:mt-16">
-        <h1 class="text-3xl lg:text-4xl font-medium">Hey, Andrew here!</h1>
-        <div class="text-3xl lg:text-4xl font-medium mt-4">I'm a full-stack developer with a love for <span class="lang lang-laravel">Laravel</span>, <span class="lang lang-vue">Vue</span> + <span class="lang lang-docker">Docker</span>.</div>
+        <h1 class="text-3xl lg:text-4xl font-semibold">Hey, Andrew here!</h1>
+        <div class="text-3xl lg:text-4xl font-semibold mt-4">I'm a full-stack developer with a love for <span class="lang lang-laravel">Laravel</span>, <span class="lang lang-vue">Vue</span> + <span class="lang lang-docker">Docker</span>.</div>
         <div class="flex items-center justify-between md:justify-start mt-8 lg:mt-16">
             <a class="block mr-0 md:mr-12 fill-current text-gray-900 hover:text-gray-500 transform hover:-translate-y-1 transition-all duration-200" href="https://github.com/aschmelyun" target="_blank" rel="noreferrer">
                 <svg width="53" height="52" viewBox="0 0 53 52" xmlns="http://www.w3.org/2000/svg">

@@ -42,12 +42,6 @@
       "thumbnail": "passhints.png"
     },
     {
-      "name": "Larahawk",
-      "description": "An easy-to-setup, super simple error reporting and notifications platform for Laravel applications. Essentially this is the SaaS version of Larametrics, and can be installed across multiple applications.",
-      "link": "https://larahawk.com",
-      "thumbnail": "larahawk.png"
-    },
-    {
       "name": "Budget.cool",
       "description": "An easy-to-use and free budgeting app with a manual-only entry mode. The frontend is powered by a Vue 2 SPA that communicates with a basic Laravel-powered API.",
       "link": "https://budget.cool",
