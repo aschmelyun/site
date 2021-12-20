@@ -6,6 +6,7 @@
     <div class="w-auto mx-4 lg:w-4/5 lg:mx-auto">
         @include('partials.nav')
         @include('partials.blog.content')
+        @include('partials.blog.newsletter')
         @include('partials.footer')
     </div>
 </div>
