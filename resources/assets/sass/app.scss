@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import '~highlight.js/scss/atom-one-light';
+@import '~highlight.js/scss/atom-one-dark';
 
 .lang {
   display: inline-block;
@@ -79,8 +79,8 @@
   ul {
     @apply py-2 px-4 mb-4 mx-6 list-disc;
   }
-  pre {
-    @apply rounded bg-gray-100 py-2 px-4 mb-2;
+  pre > code {
+    @apply rounded mb-2;
   }
   p > code {
     @apply rounded py-1 px-2 bg-gray-100;

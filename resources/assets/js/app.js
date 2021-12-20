@@ -28,11 +28,6 @@ $('#link-home').click(() => {
         .addClass('text-gray-900 bg-white hover:bg-gray-200');
 });
 
-const hljs = require('highlight.js');
-const hljsDefineVue = require('highlightjs-vue');
-
-hljsDefineVue(hljs);
-
-document.querySelectorAll('pre > code').forEach(block => {
-    hljs.highlightBlock(block);
-});
+var hljs = require('highlight.js');
+hljs.registerLanguage("vue", window.hljsDefineVue);
+hljs.highlightAll();

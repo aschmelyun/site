@@ -37,6 +37,7 @@
     <meta name="theme-color" content="#1a202c">
 
     <link rel="stylesheet" type="text/css" href="{{ $mix['/assets/css/app.css'] }}">
+    <script src="https://cdn.jsdelivr.net/npm/highlightjs-vue"></script>
 
     @if(isset($headScripts))
         @foreach($headScripts as $headScript)
