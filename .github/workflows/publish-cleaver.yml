@@ -10,13 +10,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Cleaver with Docker container
         uses: addnab/docker-run-action@v3
-         with: 
-           image: aschmelyun/cleaver:latest
-           options: -v ${{ github.workspace }}:/var/www
-           run: |
-             composer install
-             npm install
-             npm run production
+        with:
+          image: aschmelyun/cleaver:latest
+          options: -v ${{ github.workspace }}:/var/www
+          run: |
+            composer install
+            npm install
+            npm run production
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
