@@ -2,21 +2,15 @@ name: Compile and publish site
 on: push
 
 jobs:
-  cleaver:
-    name: Compile site assets with Docker
+  compile:
+    name: Compile site assets and deploy to server
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-      - name: Run build command with Docker container
-        uses: addnab/docker-run-action@v3
-        with: 
-          image: aschmelyun/cleaver:latest
-          options: -v ${{ github.workspace }}:/var/www
-          run: |
-            composer install
-            npm install
-            npm run production
+      - name: Run Cleaver with Docker container
+        uses: docker://aschmelyun/cleaver:latest
+        working-directory: /github/workspace
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
