@@ -3,7 +3,7 @@ view: layout.post
 title: Using Docker Run inside of GitHub Actions
 description: With a specific action added in your job, you can use docker run to fire off singular containerized processes during one of your deployment steps.
 categories: docker, devops
-published: Jan 10 2021
+published: Jan 10 2022
 excerpt: Recently I decided to take on the task of automating my site's build and deployment process through GitHub Actions. I'm using my static site generator Cleaver to handle that, which requires Node + PHP to be installed in order to run the build process. Actions supports both of those runtimes out of the box, but I had just created a perfectly good Docker Image for using Cleaver, and wanted to use that.
 ---
 
