@@ -18,7 +18,7 @@ mix.setPublicPath('./')
        processCssUrls: false
    })
    .tailwind('./tailwind.config.js')
-   .copy('resources/assets/images/', 'dist/assets/images')
+   .copyDirectory('resources/assets/images', 'dist/assets/images')
    .version();
 
 mix.browserSync({
