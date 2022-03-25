@@ -13,7 +13,7 @@ I've been occasionally writing new issues down on sticky notes whenever I see a 
 
 Spoiler alert, it worked!
 
-{% embed https://twitter.com/aschmelyun/status/1506960015063625733 %}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So here&#39;s why I bought a receipt printer:<br><br>Every time one of my GitHub repos gets a new issue, I now get a physical ticket printed out on my desk 🪄 <a href="https://t.co/g6uYtGP9J7">pic.twitter.com/g6uYtGP9J7</a></p>&mdash; Andrew Schmelyun (@aschmelyun) <a href="https://twitter.com/aschmelyun/status/1506960015063625733?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 So let's dive in and I'll show you exactly what I used, and how I set it up!
 
