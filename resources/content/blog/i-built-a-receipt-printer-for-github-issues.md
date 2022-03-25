@@ -7,7 +7,7 @@ published: Mar 25 2022
 excerpt: I have a lot of side projects on GitHub. Some of them are kind of popular, and I tend to get issues posted from time to time. The problem though is that usually they kind of get lost in the mix. I've been occasionally writing new issues down on sticky notes whenever I see a notification for one pop-up, but I always wanted an excuse to streamline it a bit more. 
 ---
 
-I have a lot of [side projects](https://github.com/aschmelyun/repos) on GitHub. Some of them are kind of popular, and I tend to get issues posted from time to time. The problem though is that usually they kind of get lost in the mix of my emails, or I forget to go through my repos and add new items to my todo list.
+I have a lot of [side projects](https://github.com/aschmelyun?tab=repositories) on GitHub. Some of them are kind of popular, and I tend to get issues posted from time to time. The problem though is that usually they kind of get lost in the mix of my emails, or I forget to go through my repos and add new items to my todo list.
 
 I've been occasionally writing new issues down on sticky notes whenever I see a notification for an issue, but I always wanted an excuse to streamline the process a bit more. After seeing a receipt printer spitting out orders while grabbing some take-out the other day, I wondered if I could use one to print out a ticket each time an issue was added to one of my repos.
 
