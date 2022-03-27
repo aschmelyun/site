@@ -57,7 +57,7 @@ class Feed
         $entry->addChild('summary', $attributes['summary']);
 
         $content = $entry->addChild('content');
-        $content->addAttribute('type', 'text/html');
+        $content->addAttribute('type', 'html');
         $content->addCData($attributes['content']);
 
         return $this;
