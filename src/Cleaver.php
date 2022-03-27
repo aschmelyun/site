@@ -58,9 +58,45 @@ class Cleaver
                 }
 
                 $console->error($compiler->file, 'there was a problem saving');
-                continue;                
+                continue;
             }
         }
+
+        // generate XML feed for the site's blog entries
+        $collection = ContentEngine::generateCollection($fileEngine, $pageBuildOverride);
+        $posts = $collection->filter(function($item) {
+            return $item->view === 'layout.post';
+        });
+
+        $posts = $posts->map(function ($item, $key) {
+            $item->datetime = strtotime($item->published);
+
+            return $item;
+        });
+
+        $posts = $posts->sortByDesc('datetime')
+            ->take(5);
+
+        $feed = \Aschmelyun\BasicFeeds\Feed::create([
+            'id' => 'https://aschmelyun.com/',
+            'title' => 'Andrew Schmelyun\'s Blog',
+            'link' => 'https://aschmelyun.com/blog',
+            'authors' => 'Andrew Schmelyun',
+            'feed' => 'https://aschmelyun.com/feed.xml',
+        ]);
+
+        foreach($posts as $post) {
+            $feed->entry([
+                'id' => 'https://aschmelyun.com/' . $post->path,
+                'title' => $post->title,
+                'link' => 'https://aschmelyun.com/' . $post->path,
+                'updated' => date('c', strtotime($post->published)),
+                'summary' => $post->excerpt,
+                'content' => $post->body
+            ]);
+        }
+
+        file_put_contents(FileEngine::$outputDir . '/feed.xml', $feed->toAtom());
 
         $this->buildTime['end'] = microtime(true);
 
