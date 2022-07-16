@@ -125,3 +125,5 @@ const state = reactive({
 ```
 
 Well, I hope this made the differences (and similarities) between ref and reactive in Vue a little clearer.
+
+If you have any questions about this, or anything else related to web development, feel free to let me know in the comments or reach out to me on [Twitter](https://twitter.com/aschmelyun)!
