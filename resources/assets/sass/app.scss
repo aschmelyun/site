@@ -80,7 +80,7 @@
     @apply py-2 px-4 mb-4 mx-6 list-disc;
   }
   pre > code {
-    @apply rounded mb-2;
+    @apply rounded mb-2 text-sm;
   }
   p > code {
     @apply rounded py-1 px-2 bg-gray-100;

@@ -10,17 +10,22 @@
       "items": [
         {
           "name": "MacBook Air M1",
-          "description": "My daily driver, the machine I do the bulk of my work on. I went with the 8gb version and it's been plenty, even using Docker.",
+          "description": "My go-to for any work done not at my office desk or when travelling. I went with the 8gb version and it's been plenty, even using Docker.",
           "link": "https://www.apple.com/shop/buy-mac/macbook-air"
         },
         {
+            "name": "MacBook Mini M1",
+            "description": "The machine that I do the bulk of my work on. It's the cheapest version and has been plenty powerful enough to do both programming and recording tasks on it.",
+            "link": "https://www.apple.com/shop/buy-mac/mac-mini"
+        },
+        {
           "name": "Custom Built PC",
-          "description": "What I stream web development on sometimes use to edit my videos. Specs include Ryzen 5 3600, Radeon RX 580, and 16GB of RAM.",
+          "description": "Mostly for video games, but occasionally for streaming and editing heavier videos. Specs include Ryzen 5 3600, Radeon RX 580, and 16GB of RAM.",
           "link": "https://pcpartpicker.com/list/VHR6j2"
         },
         {
           "name": "Samsung UR55 Monitor",
-          "description": "After using 2 or even 3 monitor setups for years, I recently switched to this single, larger 4K IPS monitor from Samsung.",
+          "description": "A larger 4K 28-inch IPS monitor from Samsung. I also have a smaller 24-inch one in a vertical position on the left side.",
           "link": "https://www.bestbuy.com/site/samsung-ur55-series-28-ips-4k-uhd-monitor/6386391.p?skuId=6386391"
         },
         {
@@ -44,8 +49,8 @@
           "link": "https://www.amazon.com/Rode-Procaster-Broadcast-Dynamic-Microphone/dp/B001IPUJJI/ref=asc_df_B001IPUJJI"
         },
         {
-          "name": "Custom Built Keyboard",
-          "description": "Currently am using a custom-built mechanical keyboard, built from the GK64 platform with Kailh Box Jade switches and some thick PBT keycaps.",
+          "name": "Mechanical Keyboard",
+          "description": "A custom-built mechanical keyboard, using the GK64 platform. Currently has Kailh Box Jade switches and some thick PBT keycaps.",
           "link": "https://www.amazon.com/GK64S-Plastic-Aluminum-Keyboard-Bluetooth/dp/B07XBR9RPT/ref=sr_1_5?dchild=1&keywords=gk64&qid=1613465832&sr=8-5"
         },
         {
@@ -74,9 +79,9 @@
           "link": "https://obsproject.com/"
         },
         {
-          "name": "Audacity",
-          "description": "Audio for video tutorials is recorded and edited with this free program. I loosely follow a guide from thisinterestsme.com for optimizing the audio.",
-          "link": "https://www.audacityteam.org/"
+          "name": "Audio Hijack",
+          "description": "Audio for video tutorials is recorded and edited in real-time with this program. Mostly a noise gate and some boost to the low-end for a deeper sound.",
+          "link": "https://rogueamoeba.com/audiohijack/"
         },
         {
           "name": "ScreenFlow",
