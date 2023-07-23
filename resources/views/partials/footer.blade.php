@@ -2,7 +2,7 @@
     <div class="flex flex-wrap -mx-4 -mb-10 text-center items-center justify-between">
         <div class="w-full lg:w-1/2 mb-10 px-4 text-center lg:text-left">
             <p class="mb-2 font-semibold text-gray-900">&copy;{{ date('Y') }} Andrew Schmelyun</p>
-            <p>This site is powered by <a href="https://github.com/aschmelyun/cleaver" target="_blank" rel="noreferrer" class="inline-block py-0.5 px-2 rounded bg-white text-gray-700 border border-gray-600 text-xs font-semibold tracking-widest hover:bg-gray-600 hover:text-white transition-colors duration-200">CLEAVER 🔥🔪</a></p>
+            <p>This site was built with <a href="https://github.com/aschmelyun/cleaver" target="_blank" rel="noreferrer" class="inline-block py-0.5 px-2 rounded bg-white text-gray-700 border border-gray-600 text-xs font-semibold tracking-widest hover:bg-gray-600 hover:text-white transition-colors duration-200">CLEAVER 🔥🔪</a></p>
         </div>
         <div class="w-full lg:w-1/2 mb-10 px-4 text-center lg:text-right">
             <p class="mb-2 font-semibold text-gray-900">Follow me</p>

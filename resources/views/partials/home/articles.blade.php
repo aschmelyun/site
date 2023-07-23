@@ -1,4 +1,4 @@
-<section class="text-gray-700 body-font overflow-hidden mt-16">
+<section class="text-gray-700 body-font overflow-hidden mt-12">
     <h2 class="mb-8 lg:mb-12 text-3xl lg:text-4xl text-gray-900 font-semibold section-heading relative"><span class="bg-white pr-3">Latest posts</span></h2>
     @php
         $latestPosts = $cleaver->filter(function($post, $key) {

@@ -1,4 +1,4 @@
-<div class="flex mt-0 lg:mt-12">
+<div class="flex mt-0 lg:mt-8">
     <div class="w-full lg:w-1/2 mt-4 lg:mt-16">
         <h1 class="text-3xl lg:text-4xl font-semibold">Hey, Andrew here!</h1>
         <div class="text-3xl lg:text-4xl font-semibold mt-4">I'm a full-stack developer with a love for <span class="lang lang-laravel">Laravel</span>, <span class="lang lang-vue">Vue</span> + <span class="lang lang-docker">Docker</span>.</div>
@@ -27,19 +27,19 @@
     </div>
     <div class="hidden lg:block w-1/2">
         <div class="icon ml-4">
-            <svg width="210" height="178" viewBox="0 0 233 197" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="200" height="168" viewBox="0 0 233 197" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M201.415 32.647C225.593 55.7783 239.252 94.4003 230.041 125.068C220.778 155.683 188.698 178.291 156.775 188.967C124.799 199.643 93.0327 198.387 66.709 185.722C40.4377 173.057 19.609 148.984 8.46201 117.689C-2.68499 86.3933 -4.20266 47.8237 13.957 26.053C32.169 4.28234 70.1107 -0.689326 106.378 0.619008C142.645 1.87501 177.289 9.51567 201.415 32.647Z" fill="#edf2f7" fill-opacity="1"></path>
                 <image xlink:href="/assets/images/icon-laravel.png" x="50%" y="50%" height="133" width="128" transform="translate(-60,-64)"></image>
             </svg>
         </div>
         <div class="icon flex justify-end -mt-24">
-            <svg width="200" height="215" viewBox="0 0 223 239" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg width="190" height="205" viewBox="0 0 223 239" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path d="M208.029 39.254C224.73 62.624 224.616 96.881 219.999 135.299C215.382 173.717 206.148 216.239 180.213 231.743C154.278 247.19 111.585 235.505 76.9286 215.612C42.2156 195.662 15.5966 167.504 5.22264 132.563C-5.09436 97.6789 0.890645 56.1259 23.5196 31.3879C46.0916 6.64995 85.3076 -1.21606 121.617 1.12094C157.926 3.40094 191.385 15.884 208.029 39.254Z" fill="#edf2f7" fill-opacity="1"></path>
                 <image xlink:href="/assets/images/icon-vue.png" x="50%" y="50%" height="111" width="128" transform="translate(-60,-50)"></image>
             </svg>
         </div>
-        <div class="icon flex ml-20 -mt-24">
-            <svg width="223" height="233" viewBox="0 0 238 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="icon flex ml-12 -mt-24">
+            <svg width="213" height="223" viewBox="0 0 238 243" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M196.76 38.3333C219.533 61.06 235.633 90.5067 237.22 121.587C238.807 152.667 225.927 185.333 203.107 208.293C180.333 231.207 147.667 244.46 116.773 242.687C85.8333 240.913 56.7133 224.207 35.06 201.247C13.4533 178.287 -0.639987 149.167 0.24668 120.887C1.13335 92.6067 17 65.2133 38.6067 42.5333C60.2133 19.8067 87.6067 1.74665 116.027 0.719987C144.493 -0.30668 173.94 15.6067 196.76 38.3333Z" fill="#edf2f7" fill-opacity="1"></path>
                 <image xlink:href="/assets/images/icon-docker.png" x="50%" y="50%" height="111" width="156" transform="translate(-70,-50)"></image>
             </svg>
