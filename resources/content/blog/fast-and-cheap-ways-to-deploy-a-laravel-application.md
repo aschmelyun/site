@@ -9,6 +9,8 @@ excerpt: So you have a Laravel application and you want to get it deployed witho
 
 So you have a Laravel application and you want to get it deployed without breaking the bank. Being that Laravel is built on PHP, there's a _lot_ of options to choose from but all of them might not be too good for your wallet. I'll take this time to go through **five** of my favorite cheap and easy options to deploy a Laravel application.
 
+## Shared Hosting
+
 Starting off with the most basic, we have shared hosting. This is pretty well-known, and it's a simple solution that usually costs a few dollars (US) a month. You sign up with your hosting provider of choice and get access to a management dashboard like cPanel.
 
 From there, you can configure your options, upload your source code, and get your application deployed onto the public web. But, you can usually run into an issue with this. Most shared hosting that I've come across has the root folder set to something like `public_html`, but Laravel's root folder is the `public` folder. We can work around this in two ways. 
@@ -29,11 +31,15 @@ $this->app->bind('path.public', function() {
 
 Okay, moving on!
 
+## Virtual Machines
+
 The second option is a cheap virtual machine (VM) like a [DigitalOcean](https://digitalocean.com) droplet. You can start from scratch or use one of their marketplace installs that sets up a boilerplate for you. They have ones specifically created for Laravel applications that come pre-installed with PHP, MySQL, and Nginx.
 
 Once you have your VM up and running, you can use `rsync` or plain old sftp to copy your application files to the server. After that, you should be good to go! If you didn't use a marketplace install like the ones mentioned above, you'll have to make sure that your webserver public root is set to the `public` folder of your Laravel application.
 
 Third option, let's talk serverless!
+
+## Serverless
 
 If you want to go serverless, you can use Amazon Lambda with the [Bref](https://bref.sh/) library. This allows you to deploy your application to the AWS cloud and (depending on your traffic), stick within the free tier provided. The only downside is that you will need to use an external database for persistence.
 
@@ -53,6 +59,8 @@ Once everything is set up, clear the config cache and use the `serverless deploy
 
 Want a more hands-off serverless approach?
 
+## Laravel Vapor
+
 If you want to stick with serverless but don't want to deal with the hassle of setting up Lambda, you can use [Laravel Vapor](https://vapor.laravel.com). This is a first-party service provided by Laravel and offers a modest free tier. It acts as a high-level wrapper for the AWS services mentioned in the last option, and allows you to manage your application through a spiffy dashboard.
 
 You can connect your source code through GitHub for automatic deployments, and manage databases, caches, and domains all in one place. Vapor works similarly to the serverless CLI that we used with Bref. 
@@ -60,6 +68,8 @@ You can connect your source code through GitHub for automatic deployments, and m
 In order to get started, you'll need to install the Vapor tool on your host machine. Next, run `vapor login` to connect your account. Then, you can run `vapor deploy` from your project root to deploy your application. After a few minutes, your Laravel app will be live on a domain for you to use and share!
 
 ALright, we're almost done!
+
+## Fly.io
 
 The last option I'll mention is [fly.io](https://fly.io/). This is a containerized hosting service that comes with another nifty command-line tool that makes it easy to deploy Laravel applications.
 
@@ -70,6 +80,8 @@ To get started, you'll need to install the `flyctl` tool on your operating syste
 Like with Laravel Vapor, fly.io offers a dashboard where you can monitor the health and metrics of your application, view deployment history, manage various services associated with your account, and more.
 
 That's about it!
+
+## Conclusion
 
 Wrapping up, I do want to say that I haven't been paid to promote any of these services. I've just used them all at some time in the past and have personally found each to be great options for deploying Laravel apps. Most offer free tiers, and all of them are easy to use and powerful enough to handle most small-to-medium applications.
 
