@@ -39,6 +39,8 @@
     <link rel="stylesheet" type="text/css" href="{{ $mix['/assets/css/app.css'] }}">
     <script src="https://cdn.jsdelivr.net/npm/highlightjs-vue"></script>
 
+    <script src="https://cdn.usefathom.com/script.js" data-site="CWKFJVNZ" defer></script>
+
     @if(isset($headScripts))
         @foreach($headScripts as $headScript)
             {!! $headScript !!}
