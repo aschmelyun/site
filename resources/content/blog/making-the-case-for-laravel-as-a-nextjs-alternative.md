@@ -15,7 +15,7 @@ Within the last year or two, first-party upgrades to the framework and package d
 
 This isn't meant to be a "who's better" between the two, but instead a showcase of what Laravel can do out of the box. **Let's start!**
 
-### Page-based routing
+## Page-based routing
 
 Next.js is famous for its simple and intuitive page-based routing system. But did you know that Laravel has a similar functionality now? Up until this year, if you wanted to create a new route in Laravel you'd have to specify it in a main routes file. However, a first-party package called [Laravel Folio](https://github.com/laravel/folio) was recently released that enables purely **page-based routing**, and it works surprisingly similarly to Next.js.
 
@@ -48,7 +48,7 @@ But we can take dynamic routes *one step further*.
 
 For our blog, if we were using a Laravel model called `Article` to hold data for a single blog article, we can actually use route-model binding in our dynamic page-based routes by just renaming that file to `[Article].blade.php`. Now inside the blade file, the variable `$article` will be available, containing the entire Article model's attributes!
 
-### Static-site generation
+## Static-site generation
 
 Next.js recommends using static generation whenever possible, and it's enabled by default on most pages. Basically anything that doesn't require heavy user interaction can be statically generated on build time and then served up via your server (or better yet, a CDN).
 
@@ -66,7 +66,7 @@ We can specify paths to exclude from the crawler, programmatically turn it on or
 
 Unlike Next.js, there's no equivalent of a `getStaticProps` method that runs when building the exporter. You can always include a function in the body of the Blade template if you're using something like Folio, which will run as each page is compiled, although that'll also occur *outside* of the exporting as well.
 
-### Server-side rendering
+## Server-side rendering
 
 While using Next.js you need to include a `getServerSideProps` method to enable SSR, but PHP comes with server side rendering on by default!
 
@@ -76,7 +76,7 @@ Going deeper than just blade files, Laravel is a full MVC framework and so inclu
 
 A similar out of the box piece to look for is a database. Laravel includes an abstraction layer called [Eloquent](https://laravel.com/docs/eloquent) that makes it easy to interact with your database of choice. It's a full ORM that can be used to create, read, update, and delete records, and can be used to build out more complex relationships between models.
 
-### Single page components
+## Single page components
 
 Some of the beauty of Next.js comes from the fact that you're using the React library, and all of the wonderful developer experience that comes with it. This enables you to easily build dynamic user interfaces and responsive views with relative ease.
 
@@ -110,7 +110,7 @@ Now when our page is visited or rendered, we'll have a form at the bottom that t
 
 Unlike Next.js though, this interactivity is **dependant on server rendering**. LiveWire uses JavaScript on the frontend to hydrate these components and provide client-side interactivity, but the core functionality and reactivity depends on the server to manipulate state and perform the functions requested.
 
-### Development environment included
+## Development environment included
 
 With Next.js, you have an included development server that's ran with npm. With Laravel, there's a few different options for a local development environment.
 
@@ -124,7 +124,7 @@ This boots up a local PHP server instance, included in the actual *language* its
 
 If you want something more complex with additional features like a MySQL server, Redis instance, or Mailpit box, then you can use the first-party Laravel Sail which comes pre-installed to new Laravel apps. It's a bash script wrapper for Docker that boots up a network of containers and handles your local dev environment setup.
 
-### Ease of deployment
+## Ease of deployment
 
 Alright, you're ready to release your application to a production environment, now what? Let's assume that we have a mixture of static content and server-side rendered routes, which means we'll need to have a setup that can run our applications dynamically.
 
@@ -132,7 +132,7 @@ For Next.js, this means that we need to have a server provisioned with Node.js. 
 
 Since Laravel runs on PHP, and PHP has been around for decades, getting a server provisioned with the requirements for a LAMP (or LEMP) stack is not too difficult of a task. There's a plethora of options available, from shared hosting to VPS providers. Even managed services like [Laravel Forge](https://forge.laravel.com) that can handle the provisioning and configuration of your server for you, similarly to how Next.js has managed application instances with Vercel.
 
-### What else?
+## What else?
 
 This article wasn't meant to be a competition between Next.js and Laravel. They're both fantastic batteries-included, full-stack web frameworks that enable you to build applications and ship awesome features.
 
