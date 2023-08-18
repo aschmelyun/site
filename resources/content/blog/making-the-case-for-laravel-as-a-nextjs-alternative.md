@@ -9,7 +9,7 @@ excerpt: Next.js is a powerhouse of a full-stack web framework with features lik
 
 [Next.js](https://nextjs.org) is a powerhouse of a full-stack web framework with features like page-based routing, static-site generation, and dynamic React components, but what if I told you that you could get all of that with **just PHP**?
 
-![The PHP logo with Next.js replacing the usual text](/assets/images/php-nextjs-logo.png)
+![The PHP logo with Next.js replacing the usual text](/assets/images/php-nextjs-logo.jpg)
 
 [Laravel](https://laravel.com) is a PHP framework that's been in development for almost a decade. In that time it has solidified itself as one of the most-loved options for building web applications powering the needs of both startups and some of the largest companies around. It also has amassed a massive community of individuals and organizations that provide world-class packages and libraries to enhance its already renown developer experience.
 
