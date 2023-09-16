@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://aschmelyun.com{{ $path }}" />
     <meta property="og:site_name" content="Andrew Schmelyun" />
     @if($path !== '/' && file_exists(dirname(__FILE__, 2) . '/resources/assets/images/meta' . $path . '.jpg'))
-        <meta name="og:image" content="https://aschmelyun.com/assets/images/meta{{ $path }}.jpg" />
+        <meta property="og:image" content="https://aschmelyun.com/assets/images/meta{{ $path }}.jpg" />
     @else
         <meta property="og:image" content="https://aschmelyun.com/assets/images/meta/default.jpg" />
     @endif
