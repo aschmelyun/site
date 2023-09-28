@@ -5,7 +5,7 @@
         </a>
         <nav class="w-full md:w-auto md:ml-auto flex flex-wrap items-center text-lg justify-around lg:justify-center">
             <a href="/blog" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Blog</a>
-            <a href="/uses" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Uses</a>
+            <a href="https://aschmelyun.gumroad.com" target="_blank" rel="noopener" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Courses</a>
             <a href="/projects" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Projects</a>
             <a href="https://aschmelyun.substack.com" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Newsletter</a>
         </nav>
