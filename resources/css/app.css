@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+    background: url('/resources/images/Sprinkle.svg');
+}
+
+.background-colors {
+    background-color:#99fff0;
+    background-image:
+            radial-gradient(at 32% 7%, hsla(159,70%,79%,1) 0px, transparent 50%),
+            radial-gradient(at 78% 28%, hsla(152,62%,60%,1) 0px, transparent 50%),
+            radial-gradient(at 83% 81%, hsla(47,84%,68%,1) 0px, transparent 50%),
+            radial-gradient(at 53% 54%, hsla(207,89%,75%,1) 0px, transparent 50%),
+            radial-gradient(at 28% 24%, hsla(293,90%,61%,1) 0px, transparent 50%),
+            radial-gradient(at 14% 96%, hsla(358,96%,73%,1) 0px, transparent 50%),
+            radial-gradient(at 68% 31%, hsla(4,60%,63%,1) 0px, transparent 50%);
+}
+
+.background-pattern {
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+    background-size: 64px 112px;
+    background-position: 0 0, 0 0, 32px 56px, 32px 56px, 0 0, 32px 56px;
+}
+
+.highlight {
+    @apply inline-block relative;
+}
+
+.highlight:after {
+    content: '';
+    @apply block absolute left-0 w-full bottom-3 h-2 -z-10;
+}
+
+.highlight.laravel:after {
+    background: #ff2d20;
+}
+
+.highlight.vue:after {
+    background: #42b883;
+}
+
+.highlight.docker:after {
+    background: #1d63ed;
+}
+
+.animate-soft {
+    animation-name: soft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.animate-soft-shadow {
+    animation-name: soft-shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.animate-soft.alt-1 {
+    animation-duration: 4s;
+}
+
+.animate-soft.alt-2 {
+    animation-duration: 6s;
+}
+
+.animate-soft-shadow.alt-1 {
+    animation-duration: 4s;
+}
+
+.animate-soft-shadow.alt-2 {
+    animation-duration: 6s;
+}
+
+@keyframes soft {
+    0% {
+        transform: translateY(0.5rem) scale(0.95);
+    }
+    50% {
+        transform: translateY(0rem);
+    }
+    100% {
+        transform: translateY(0.5rem) scale(0.95);
+    }
+}
+
+@keyframes soft-shadow {
+    0% {
+        transform: scaleY(0.5) scaleX(1);
+    }
+    50% {
+        transform: scaleY(0.35) scaleX(0.75);
+    }
+    100% {
+        transform: scaleY(0.5) scaleX(1);
+    }
+}
