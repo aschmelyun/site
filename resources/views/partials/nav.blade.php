@@ -7,7 +7,6 @@
             <a href="/blog" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Blog</a>
             <a href="https://aschmelyun.gumroad.com" target="_blank" rel="noopener" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Courses</a>
             <a href="/projects" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Projects</a>
-            <a href="https://aschmelyun.substack.com" class="inline-flex bg-white text-gray-900 mr-0 lg:mr-6 hover:bg-gray-200 border-0 py-1 px-3 focus:outline-none transition-colors duration-200">Newsletter</a>
         </nav>
         <a href="mailto:me@aschmelyun.com?subject=Contacting you from your website&body=Ask me a question, get help with one of my projects, or hire me for freelance and contract work!" class="inline-flex items-center bg-gray-200 text-gray-900 border-0 py-1 px-3 focus:outline-none hover:bg-gray-900 hover:text-white font-semibold text-lg mt-4 md:mt-0 transition-colors duration-200">Contact Me
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
