@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="absolute w-full h-screen top-0 left-0 -z-10 bg-gradient-to-b from-slate-200 to-white overflow-hidden"></div>
+    <x-background></x-background>
     <div class="flex mt-0 lg:mt-8">
         <div class="relative z-10 w-2/3 mt-4 lg:mt-16">
             <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-loose text-gray-900">

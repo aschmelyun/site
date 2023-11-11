@@ -25,6 +25,10 @@
     background-position: 0 0, 0 0, 32px 56px, 32px 56px, 0 0, 32px 56px;
 }
 
+code.torchlight .line .line-number {
+    padding-right: 1rem;
+}
+
 .highlight {
     @apply inline-block relative;
 }

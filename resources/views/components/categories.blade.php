@@ -20,8 +20,8 @@ $dotCategoryMap = [
 ];
 @endphp
 @foreach(explode(',', $slot) as $category)
-    <span class="text-xs lowercase border border-slate-200 text-slate-500 rounded-full py-0.5 px-2 inline-block mr-0.5">
+    <a href="{{ route('posts.index', ['category' => trim($category)]) }}" class="text-xs lowercase bg-white border border-slate-200 border-b-slate-300 text-slate-500 rounded-full py-0.5 px-2 inline-block mr-0.5 hover:border-indigo-200 hover:border-b-indigo-300 hover:shadow-sm hover:shadow-indigo-200">
         <span class="inline-block h-2 w-2 rounded-full mr-0.5 {{ $dotCategoryMap[trim($category)] }}"></span>
         {{ trim($category) }}
-    </span>
+    </a>
 @endforeach

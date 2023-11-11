@@ -1,0 +1,1 @@
+<div class="absolute w-full h-screen top-0 left-0 -z-10 bg-gradient-to-b from-slate-200 to-white overflow-hidden"></div>
