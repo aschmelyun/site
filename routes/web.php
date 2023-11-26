@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\AddTrailingSlash;
 use App\Models\Post;
 use App\Models\Project;
 use GrahamCampbell\Markdown\Facades\Markdown;
@@ -15,37 +16,37 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/blog', function (Request $request) {
-    $posts = Post::latest('published_at')
-        ->get();
+Route::group(['middleware' => AddTrailingSlash::class], function () {
 
-    if ($request->has('category')) {
-        $posts = $posts->filter(function ($post) use ($request) {
-            $categories = explode(',', $post->categories);
-            $categories = array_map('trim', $categories);
+    Route::get('/blog', function (Request $request) {
+        $posts = Post::latest('published_at')
+            ->get();
 
-            return in_array($request->get('category'), $categories);
-        });
-    }
+        if ($request->has('category')) {
+            $posts = $posts->filter(function ($post) use ($request) {
+                $categories = explode(',', $post->categories);
+                $categories = array_map('trim', $categories);
 
-    return view('posts.index', [
-        'posts' => $posts
-    ]);
-})->name('posts.index');
+                return in_array($request->get('category'), $categories);
+            });
+        }
 
-Route::get('/blog/{post:slug}', function (Request $request, Post $post) {
-    if (substr($_SERVER['REQUEST_URI'], -1) !== '/') {
-        return redirect()->to($request->url() . '/', 301);
-    }
+        return view('posts.index', [
+            'posts' => $posts
+        ]);
+    })->name('posts.index');
 
-    return view('posts.show', [
-        'post' => $post,
-        'content' => Markdown::convert($post->content)->getContent()
-    ]);
-})->name('posts.show');
+    Route::get('/blog/{post:slug}', function (Request $request, Post $post) {
+        return view('posts.show', [
+            'post' => $post,
+            'content' => Markdown::convert($post->content)->getContent()
+        ]);
+    })->name('posts.show');
 
-Route::get('/projects', function () {
-    return view('projects.index', [
-        'projects' => Project::all()
-    ]);
+    Route::get('/projects', function () {
+        return view('projects.index', [
+            'projects' => Project::all()
+        ]);
+    });
+
 });

@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout title="Projects">
     <x-background></x-background>
     <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-loose text-gray-900 mt-8">
         Current and Past Projects
