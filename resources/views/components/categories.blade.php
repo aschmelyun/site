@@ -8,6 +8,7 @@ $dotCategoryMap = [
     'experiments' => 'bg-fuchsia-500',
     'php' => 'bg-indigo-500',
     'inertia' => 'bg-purple-500',
+    'arduino' => 'bg-teal-500',
 ];
 @endphp
 @foreach(explode(',', $slot) as $category)

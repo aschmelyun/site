@@ -16,6 +16,7 @@ class Project extends Model
         $table->string('slug');
         $table->string('categories');
         $table->integer('github_stars');
+        $table->string('link');
     }
 
     public function getKeyName(): string

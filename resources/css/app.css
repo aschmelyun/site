@@ -35,7 +35,7 @@ code.torchlight .line .line-number {
 
 .highlight:after {
     content: '';
-    @apply block absolute left-0 w-full bottom-3 h-2 -z-10;
+    @apply block absolute left-0 w-full bottom-1.5 md:bottom-3 h-2 -z-10;
 }
 
 .highlight.laravel:after {

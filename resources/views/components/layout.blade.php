@@ -14,33 +14,33 @@
 
   @vite('resources/css/app.css')
 
-  <meta name="description" content="{{ $description ?? '' }}">
+  <meta name="description" content="{!! $description ?? '' !!}">
 
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ $title ?? '' }}" />
-  <meta property="og:description" content="{{ $description ?? '' }}" />
+  <meta property="og:description" content="{!! $description ?? '' !!}" />
   <meta property="og:url" content="{{ url()->current() }}/" />
   <meta property="og:site_name" content="Andrew Schmelyun" />
-  @if (url()->current() === env('APP_URL'))
-<meta property="og:image" content="{{ env('APP_URL') . '/assets/images/meta/home' }}.jpg" />
+  @if (str_contains(url()->current(), 'blog/'))
+<meta property="og:image" content="{{ str_replace(env('APP_URL'), env('APP_URL') . '/storage/images/meta', url()->current()) }}.jpg" />
   @else
-<meta property="og:image" content="{{ str_replace(env('APP_URL'), env('APP_URL') . '/assets/images/meta', url()->current()) }}.jpg" />
+<meta property="og:image" content="{{ env('APP_URL') . '/storage/images/meta/default' }}.jpg" />
   @endif
 
   <meta name="twitter:title" content="{{ $title ?? '' }}" />
-  <meta name="twitter:description" content="{{ $description ?? '' }}" />
+  <meta name="twitter:description" content="{!! $description ?? '' !!}" />
   <meta name="twitter:site" content="@aschmelyun" />
   <meta name="twitter:card" content="summary_large_image" />
-  @if (url()->current() === env('APP_URL'))
-<meta property="twitter:image" content="{{ env('APP_URL') . '/assets/images/meta/home' }}.jpg" />
+  @if (str_contains(url()->current(), 'blog/'))
+<meta property="twitter:image" content="{{ str_replace(env('APP_URL'), env('APP_URL') . '/storage/images/meta', url()->current()) }}.jpg" />
   @else
-<meta property="twitter:image" content="{{ str_replace(env('APP_URL'), env('APP_URL') . '/assets/images/meta', url()->current()) }}.jpg" />
+<meta property="twitter:image" content="{{ env('APP_URL') . '/storage/images/meta/default' }}.jpg" />
   @endif
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/storage/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/storage/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/storage/images/favicon-16x16.png">
 
   <meta name="theme-color" content="#1a202c">
 
@@ -50,7 +50,7 @@
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "{{ $post->title }}",
-    "image": "{{ env('APP_URL') . '/assets/images/blog/' . $post->slug . '.jpg' }}",
+    "image": "{{ env('APP_URL') . '/storage/images/meta/blog/' . $post->slug . '.jpg' }}",
     "author": {
       "@type": "Person",
       "name": "Andrew Schmelyun",
@@ -61,7 +61,7 @@
       "name": "Andrew Schmelyun",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ env('APP_URL') . '/assets/images/andrew-schmelyun-profile.jpg' }}"
+        "url": "{{ env('APP_URL') . '/storage/images/andrew-schmelyun-profile.jpg' }}"
       }
     },
     "datePublished": "{{ date('Y-m-d', strtotime($post->published_at)) }}",
