@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: Building a free TickTick API with IFTTT and AWS
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/6jv4qpwf2ml5z1ooo3a7.png
+slug: building-a-free-personal-ticktick-api-with-ifttt-and-aws
 description: TickTick doesn't currently have an open developer API, but with IFTTT integration and a few free Amazon AWS services, you can make a simple one that works well enough
 categories: aws
-published: Jan 22 2021
+published_at: Jan 22 2021
 excerpt: This article doesn't expect you to have any in-depth familiarity with AWS or IFTTT. However, it is required that you have accounts for both, and recommended that you've at least played around with both of them a little bit. The free tiers of both of these services is all that's required to get your personal API running, so this doesn't cost a single cent.
 ---
 

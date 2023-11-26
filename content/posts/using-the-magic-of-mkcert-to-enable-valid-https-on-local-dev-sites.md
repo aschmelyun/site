@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: Using the magic of mkcert to enable valid https on local dev sites
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/r4nihhbo0cytzpjuopvs.jpg
+slug: using-the-magic-of-mkcert-to-enable-valid-https-on-local-dev-sites
 description: Mkcert is an incredible open-source command-line tool that generates trusted development certificates that you can use to enable https on local websites
 categories: productivity
-published: Sep 1 2020
+published_at: Sep 1 2020
 excerpt: If you're a web developer, it's very likely you've used local dev sites to build your applications on. Something like example.test or mycoolsite.devlocal, right? When I'm spinning up a basic content site, I really don't pay attention to wrapping it up in https. However, when you start digging into more complex applications, especially those requiring registration and logins, https is useful and sometimes downright required depending on your frontend.
 ---
 

@@ -9,7 +9,7 @@
                 <x-categories>{{ $post->categories }}</x-categories>
             </div>
             <div class="ml-2 text-slate-600">
-                <span class="text-sm">{{ $post->published_at }}</span>
+                <span class="text-sm">{{ $post->published_at->format('M j, Y') }}</span>
             </div>
         </div>
     </header>

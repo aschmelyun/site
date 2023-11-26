@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Fast and cheap ways to deploy a Laravel application
+slug: fast-and-cheap-ways-to-deploy-a-laravel-application
 description: From shared hosting to serverless, there's a lot of options to choose from when it comes to deploying a Laravel application.
 categories: laravel
-published: Jul 3 2023
+published_at: Jul 3 2023
 excerpt: So you have a Laravel application and you want to get it deployed without breaking the bank. Being that Laravel is built on PHP, there's a lot of options to choose from but all of them might not be too good for your wallet. I'll take this time to go through five of my favorite cheap and easy options to deploy a Laravel application.
 ---
 

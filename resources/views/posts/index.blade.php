@@ -2,7 +2,7 @@
     <x-background></x-background>
     <header class="px-4 md:px-0">
         <h1 class="text-3xl lg:leading-relaxed font-semibold leading-snug text-gray-900 mt-8">
-            All Blog Posts
+            {{ $request->has('category') ? ucfirst($request->get('category')) : 'All' }} Blog Posts
         </h1>
     </header>
     @foreach($posts as $post)
@@ -12,7 +12,7 @@
                     <x-categories>{{ $post->categories }}</x-categories>
                 </div>
                 <div class="ml-2 text-slate-600">
-                    <span class="text-sm">{{ $post->published_at }}</span>
+                    <span class="text-sm">{{ $post->published_at->format('M j, Y') }}</span>
                 </div>
             </div>
             <a href="{{ route('posts.show', $post->slug) }}" class="inline-block text-xl font-semibold mt-3 transition-colors hover:text-slate-600">{{ $post->title }}</a>

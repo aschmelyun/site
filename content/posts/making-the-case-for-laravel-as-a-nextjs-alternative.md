@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Making the case for Laravel as a Next.js alternative
+slug: making-the-case-for-laravel-as-a-nextjs-alternative
 description: Next.js offers a lot of features out of the box, but what if you could get all of that with just PHP? Let's take a look at what Laravel can provide.
 categories: laravel
-published: Aug 18 2023
+published_at: Aug 18 2023
 excerpt: Next.js is a powerhouse of a full-stack web framework with features like page-based routing, static-site generation, and dynamic React components, but what if I told you that you could get all of that with just PHP? Let's take a look at what Laravel can provide.
 ---
 

@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: How to use Laravel’s bind and singleton methods
+slug: how-to-use-laravels-bind-and-singleton-methods
 description: Up until this point I really hadn’t looked into or thought about the bind or singleton methods. I decided to do some digging and take time learning how, and when, to use those methods in my own applications.
 categories: laravel
-published: Nov 27 2019
+published_at: Nov 27 2019
 excerpt: A while back, someone pointed out that in my Laravel package tutorial, my use of a singleton method was completely unnecessary. Truth be told, up until this point I really hadn’t looked into or thought about the bind or singleton methods that I’ve seen in the source code of other packages. I decided to do some digging and take time learning how, and when, to use those methods in my own applications.
 ---
 

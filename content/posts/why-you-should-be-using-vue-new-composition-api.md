@@ -1,5 +1,4 @@
 ---
-view: layout.post
 title: Why you should be using Vue's new Composition API
 slug: why-you-should-be-using-vue-new-composition-api
 description: Vue 3 introduced the composition API and while it looks intimidating, here's a few practical examples of components rewritten using this new interface.

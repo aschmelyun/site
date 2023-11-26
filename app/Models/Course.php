@@ -6,22 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Orbit\Concerns\Orbital;
 
-class Post extends Model
+class Course extends Model
 {
     use Orbital;
-
-    protected $casts = [
-        'published_at' => 'datetime',
-    ];
 
     public static function schema(Blueprint $table): void
     {
         $table->string('title');
         $table->string('slug');
-        $table->string('description');
         $table->string('categories');
-        $table->timestamp('published_at');
-        $table->text('excerpt');
+        $table->string('link');
     }
 
     public function getKeyName(): string

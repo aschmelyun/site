@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: Four ways to pass data from Laravel to Vue
-cover_image: https://aschmelyun.com/assets/images/meta/test.png
+slug: four-ways-to-pass-data-from-laravel-to-vue
 description: I’ve worked on projects that use Vue and Laravel for the last three years, these are the methods I use to pass data between them.
 categories: laravel, vue
-published: Sep 21 2019
+published_at: Sep 21 2019
 excerpt: I’ve been working on projects that use both Vue and Laravel for the last two to three years, and during the start of each’s development I have to ask myself “How am I going to pass my data from Laravel to Vue?”. This applies to both applications where the Vue frontend components are tightly coupled to Blade templates, as well as single-page applications running completely separate of the Laravel backend.
 ---
 

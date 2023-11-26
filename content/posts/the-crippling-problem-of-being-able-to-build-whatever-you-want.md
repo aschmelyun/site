@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: The crippling problem of being able to build whatever you want
+slug: the-crippling-problem-of-being-able-to-build-whatever-you-want
 description: A critical look at the problems I've faced with procrastination, analysis paralysis, and side projects as a developer who loves building
 categories: productivity
-published: Oct 26 2023
+published_at: Oct 26 2023
 excerpt: I currently have 143 different ideas in a backlog waiting to see the light of day, and it is a constant source of anxiety. Maybe you have a similar list of your own, and like me, tell yourself "if only I had the time to work on them".
 ---
 

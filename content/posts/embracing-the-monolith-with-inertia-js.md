@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Embracing the monolith with Inertia.js
+slug: embracing-the-monolith-with-inertia-js
 description: By using Inertia, I'll show how you can bridge the gap between traditional backends and modern frontend frameworks like React and Vue.
 categories: javascript
-published: Sep 14 2023
+published_at: Sep 14 2023
 excerpt: It's likely that your single-page applications could work more effectively as a monolith, bundled together with backend code. How's this possible? We can use a bridge to span the gap between traditional backends and modern SPA frameworks. Let's talk Inertia.js.
 ---
 

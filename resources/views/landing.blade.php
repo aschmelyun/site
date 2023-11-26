@@ -42,7 +42,7 @@
                         <a href="/blog/{{ $post->slug }}" class="block font-semibold hover:underline">{{ $post->title }}</a>
                         <x-categories>{{ $post->categories }}</x-categories>
                     </div>
-                    <p class="text-slate-700 hidden md:block">{{ $post->published_at }}</p>
+                    <p class="text-slate-700 hidden md:block">{{ $post->published_at->format('M j, Y') }}</p>
                 </div>
             </div>
         @endforeach

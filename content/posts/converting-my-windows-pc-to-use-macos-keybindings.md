@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Converting my Windows PC to use MacOS keybindings
+slug: converting-my-windows-pc-to-use-macos-keybindings
 description: Using two free tools, switch your Ctrl and Alt keys while keeping Alt Tab working on your Windows computer to operate more like a MacOS machine
 categories: productivity
-published: Aug 19 2020
+published_at: Aug 19 2020
 excerpt: A few months ago I put together a pretty decent Windows PC, mostly for gaming. Although of course I started tinkering here and there with programming on it, and eventually decided to go full in on making it a web dev machine. The timing couldn't be perfect either, as Windows released WSL 2 recently and its performance with Docker Desktop has been incredible.
 ---
 

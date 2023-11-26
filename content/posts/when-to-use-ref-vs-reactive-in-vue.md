@@ -1,5 +1,4 @@
 ---
-view: layout.post
 title: When to use ref vs reactive in Vue
 slug: when-to-use-ref-vs-reactive-in-vue
 description: The Composition API introduced two different ways of providing reactivity in your Vue app, but it can be a bit confusing when choosing which method you should use.

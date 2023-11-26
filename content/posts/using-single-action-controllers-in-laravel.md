@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Using single action controllers in Laravel
+slug: using-single-action-controllers-in-laravel
 description: Fleet adds a few helpful Artisan commands to manage Laravel Sail applications and binds them to custom domain names.
 categories: laravel
-published: Feb 4 2023
+published_at: Feb 4 2023
 excerpt: This package exposes a few helpful Artisan commands to manage multiple Laravel Sail applications running concurrently on your local environment. All powered by a Traefik Docker container, letting you map custom domain names to your different Laravel applications and handling the incoming traffic to them.
 ---
 

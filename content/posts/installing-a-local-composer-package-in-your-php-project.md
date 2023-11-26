@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Installing a local Composer package in your PHP project
+slug: installing-a-local-composer-package-in-your-php-project
 description: Using Composer is a straightforward experience, but adding in a local package for use in a PHP project with it can sometimes be difficult
-categories: php, composer
-published: Jan 22 2022
+categories: php
+published_at: Jan 22 2022
 excerpt: If you've worked in a PHP project, chances are you've dealt with the Composer package manager. As a full-stack developer, I think it's one of the better ones that I use on a regular basis, consistently improving while remaining relatively simple. One of the more difficult things to do with it though, is adding a local package for use in a larger PHP project.
 ---
 

@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: Cleaver - A blazing-fast static site generator using Laravel’s Blade
-cover_image: https://thepracticaldev.s3.amazonaws.com/i/s8jvg17eo82662qouhx4.jpg
+slug: cleaver-a-blazing-fast-static-site-generator-using-laravels-blade
 description: I built a static site generator perfect for data-driven landing pages and online specs sheets using JSON or Markdown files.
 categories: laravel
-published: Dec 26 2019
+published_at: Dec 26 2019
 excerpt: I know what you’re probably thinking, “Oh boy, another static site generator”. And you’d be right, but I’m hoping that the one I’ve created is a little different than ones you’ve been exposed to.
 ---
 

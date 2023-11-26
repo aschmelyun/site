@@ -1,8 +1,6 @@
 ---
-view: layout.post
 title: Building an interactive Raspberry Pi dashboard with Laravel, Grafana, and Docker
 slug: building-an-interactive-raspberry-pi-dashboard-with-laravel-grafana-and-docker
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qqtz19pra1vlh3iz3svz.jpg
 description: A Raspberry Pi 3, a Laravel app with a single route, MySQL, and Grafana, all tied together under a Docker network.
 categories: laravel, docker
 published_at: Apr 23 2020

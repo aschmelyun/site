@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: The current state of local Laravel development
-cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lswkop30fhmwupvnyqwu.jpg
+slug: the-current-state-of-local-laravel-development
 description: A breakdown of the multitude of options when it comes to creating a local Laravel development environment
 categories: laravel,php
-published: Feb 20 2021
+published_at: Feb 20 2021
 excerpt: Right now there's a lot of options when it comes to working with Laravel on a local development environment. Where there used to be only a handful of options, there's now over a half dozen officially supported ones. In this article, I'm going to try and give a brief synapses of each of them. Provide some pros and cons, along with a basic overview of what you need to get started with each.
 ---
 

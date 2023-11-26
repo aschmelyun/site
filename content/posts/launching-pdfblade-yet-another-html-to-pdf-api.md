@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: Launching PDFBlade - Yet Another HTML to PDF API
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/oj8nkzpqbjwiv2w15d8l.png
+slug: launching-pdfblade-yet-another-html-to-pdf-api
 description: Convert URLs and plain HTML into PDF files using a robust API, easily save them to Amazon S3, and pay only for what you use.
-categories: launch
-published: Feb 10 2020
+categories: laravel,aws
+published_at: Feb 10 2020
 excerpt: There's already a few HTML to PDF APIs that are on the market today. They do their job well, and most have pretty detailed documentation that makes it easy to get started. However, my biggest issue was the billing, and I needed to scratch my own itch.
 ---
 

@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: So you want to get started with AR.js
-cover_image: https://thepracticaldev.s3.amazonaws.com/i/khxn390gis1qehppsjg7.jpg
+slug: so-you-want-to-get-started-with-ar-js
 description: Augmented reality directly on a mobile browser seems pretty far-fetched, but it's easy to add with the AR.js library!
 categories: javascript
-published: May 29 2019
+published_at: May 29 2019
 excerpt: Augmented Reality seems like it’s everywhere. Between Snapchat filters, Google stickers, IKEA’s furniture preview, and now Shopify’s AR Quick Look feature, putting 3D objects in the physical world seems to be more desirable than ever.
 ---
 

@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Intercept and inspect http requests with reqon
+slug: intercept-and-inspect-http-requests-with-reqon
 description: Reqon is a locally installed and fully open source cli tool to capture and inspect http requests in real-time.
 categories: tools,productivity
-published: Sep 18 2022
+published_at: Sep 18 2022
 excerpt: A few weeks ago I had an itch to scratch, I was working with a legacy application that was sending out a ton of curl requests to a production service. The problem was, I had no idea what was in them. I could have dug through the spaghetti and documented each one, but I needed an answer pretty quickly.
 ---
 

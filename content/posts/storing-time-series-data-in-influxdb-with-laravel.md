@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Storing time-series data in InfluxDB with Laravel
+slug: storing-time-series-data-in-influxdb-with-laravel
 description: I needed to store time-series data with InfluxDB from a variety of IoT sensors, but wanted to use it alongside an existing Laravel app installed on a Raspberry Pi.
 categories: laravel
-published: Mar 19 2022
+published_at: Mar 19 2022
 excerpt: I've been running a Laravel application on a Raspberry Pi that handles the bulk of my home automation and monitoring, like keeping track of temperatures and humidity from sensors around my house. Originally I was storing this all on a MySQL database, and yeah that worked good enough. But, after 2 years of continuous data it was starting to get a little bulky.
 ---
 

@@ -15,8 +15,14 @@ class AddTrailingSlash
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (!str_ends_with($_SERVER['REQUEST_URI'], '/')) {
-            return redirect()->to($request->url() . '/', 301);
+        $uri = strtok($_SERVER['REQUEST_URI'], '?');
+        if (!str_ends_with($uri, '/')) {
+            $redirect = $request->url() . '/';
+            if ($request->getQueryString()) {
+                $redirect .= '?' . $request->getQueryString();
+            }
+
+            return redirect()->to($redirect, 301);
         }
 
         return $next($request);

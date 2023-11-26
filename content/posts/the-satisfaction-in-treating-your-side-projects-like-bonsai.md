@@ -1,11 +1,10 @@
 ---
-view: layout.post
 title: The satisfaction in treating your side projects like bonsai
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/k17a66ixs5hq23tceyfs.jpeg
+slug: the-satisfaction-in-treating-your-side-projects-like-bonsai
 description: It wasn't enough to go from a serial starter, to a serial finisher. Here's how I iteratively maintain and grow the projects that I launch.
-categories: personal, productivity
-published: Feb 6 2020
-excerpt: I’m a serial starter. If half-finished projects were dollars, I’d be a millionaire. A little over a year ago I wrote an article about overcoming my issues finishing things that I started, but in the end that lead to a new, unforeseen problem: maintaining what I launch.
+categories: productivity
+published_at: Feb 6 2020
+excerpt: I’m a serial starter. If half-finished projects were dollars, I’d be a millionaire. A little over a year ago I wrote an article about overcoming my issues finishing things that I started, but in the end that lead to a new, unforeseen problem, maintaining what I launch.
 ---
 
 **I’m a serial starter.** If half-finished projects were dollars, I’d be a millionaire. A little over a year ago I [wrote an article](https://medium.com/@aschmelyun/how-i-went-from-abandoning-projects-to-actually-getting-stuff-done-41f02a64faa1) about overcoming my issues finishing things that I started, but in the end that lead to a new, unforeseen problem: **maintaining what I launch.**

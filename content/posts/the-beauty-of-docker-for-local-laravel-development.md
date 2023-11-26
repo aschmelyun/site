@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: The beauty of Docker for local Laravel development
-cover_image: https://thepracticaldev.s3.amazonaws.com/i/pinrnrdop1ajqgi7sl9y.jpg
+slug: the-beauty-of-docker-for-local-laravel-development
 description: Docker and Laravel can work together in beautiful harmony to make setting up customizable local dev environments easy and simple.
 categories: laravel, docker, php
-published: May 6 2019
+published_at: May 6 2019
 excerpt: You can think of Docker as a watered-down VM. Why is this helpful or useful? Well if you have multiple production servers running different versions of Linux, PHP, or any other web software, those variables can be replicated in your container and you can be guaranteed that the application will run precisely how it’s intended to on the production machine.
 ---
 

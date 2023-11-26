@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: The difference between Traits, Interfaces, and Abstract Classes in PHP
+slug: the-difference-between-traits-interfaces-and-abstract-classes-in-php
 description: These three structures can be confusing to PHP newcomers or experienced devs, so let's go over what each one does and when it's best to use them.
 categories: php
-published: Aug 07 2022
+published_at: Aug 07 2022
 excerpt: If you've been working with PHP regularly, chances are you've run across an Interface, Trait, or Abstract Class. At first glance, they might appear to have a few similarities between them, and it can be hard to make out their differences and use cases.
 ---
 

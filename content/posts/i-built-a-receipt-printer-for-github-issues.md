@@ -1,5 +1,4 @@
 ---
-view: layout.post
 title: I built a receipt printer for GitHub issues
 slug: i-built-a-receipt-printer-for-github-issues
 description: I wanted a way to have physical tickets from GitHub in front of me. One Epson printer, a Raspberry Pi, and some PHP later, I had a working system in place.

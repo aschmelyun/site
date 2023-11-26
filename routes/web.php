@@ -1,10 +1,8 @@
 <?php
 
+use App\Http\Controllers\SiteController;
 use App\Http\Middleware\AddTrailingSlash;
 use App\Models\Post;
-use App\Models\Project;
-use GrahamCampbell\Markdown\Facades\Markdown;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,35 +15,13 @@ Route::get('/', function () {
 
 Route::group(['middleware' => AddTrailingSlash::class], function () {
 
-    Route::get('/blog', function (Request $request) {
-        $posts = Post::latest('published_at')
-            ->get();
+    Route::get('/blog', [SiteController::class, 'posts'])
+        ->name('posts.index');
 
-        if ($request->has('category')) {
-            $posts = $posts->filter(function ($post) use ($request) {
-                $categories = explode(',', $post->categories);
-                $categories = array_map('trim', $categories);
+    Route::get('/blog/{post:slug}', [SiteController::class, 'post'])
+        ->name('posts.show');
 
-                return in_array($request->get('category'), $categories);
-            });
-        }
-
-        return view('posts.index', [
-            'posts' => $posts
-        ]);
-    })->name('posts.index');
-
-    Route::get('/blog/{post:slug}', function (Request $request, Post $post) {
-        return view('posts.show', [
-            'post' => $post,
-            'content' => Markdown::convert($post->content)->getContent()
-        ]);
-    })->name('posts.show');
-
-    Route::get('/projects', function () {
-        return view('projects.index', [
-            'projects' => Project::all()
-        ]);
-    });
+    Route::get('/projects', [SiteController::class, 'projects'])
+        ->name('projects.index');
 
 });

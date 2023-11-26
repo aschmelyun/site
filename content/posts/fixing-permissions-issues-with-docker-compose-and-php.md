@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Fixing permissions issues with Docker Compose and PHP
+slug: fixing-permissions-issues-with-docker-compose-and-php
 description: My fairly elegant solution to fixing the file_put_contents and RuntimeException errors with local PHP Docker development environments.
 categories: docker, php
-published: Nov 29 2021
+published_at: Nov 29 2021
 excerpt: I've been maintaining and iterating on a basic Docker Compose setup for Laravel over the last year or so. It's worked well enough for local development, which was what I originally intended it for. Ever since I released it though, I've had multiple people sending me concerns and GitHub issues surrounding permissions problems.
 ---
 

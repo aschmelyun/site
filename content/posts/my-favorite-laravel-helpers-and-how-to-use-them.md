@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: My favorite Laravel helpers and how to use them
+slug: my-favorite-laravel-helpers-and-how-to-use-them
 description: I go through my top seven Laravel helper functions and show off a few use cases for each of them.
 categories: laravel
-published: Apr 12 2020
+published_at: Apr 12 2020
 excerpt: As a full-stack PHP developer who works with Laravel on a day-to-day basis, I'm always looking for shortcuts and helpful methods in the framework that I can use to cut down on development time or code complexity.
 ---
 

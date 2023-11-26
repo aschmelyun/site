@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: Crafting a better local Laravel dev environment with Docker
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/h0781s45mpqbqv4jyfgp.jpg
+slug: crafting-a-better-local-laravel-dev-environment-with-docker
 description: Create a Docker network for Laravel development without requiring Composer, NPM, or PHP to be installed on your local machine
 categories: laravel, docker
-published: Feb 19 2020
+published_at: Feb 19 2020
 excerpt: This tutorial is built on a previous one that I wrote a few months back called The beauty of Docker for local Laravel development. While this article is beginner-friendly, it leaves out a lot of the original setup for the nginx, php, and mysql containers. I'd recommend that you start off with the previous tutorial first, and then move on to this one.
 ---
 

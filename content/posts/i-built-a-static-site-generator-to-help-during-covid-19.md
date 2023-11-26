@@ -1,10 +1,9 @@
 ---
-view: layout.post
 title: I built a static site generator to help during COVID-19
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/t9mwl17ssvl6mp8vtcgd.png
+slug: i-built-a-static-site-generator-to-help-during-covid-19
 description: For showcasing local restaurants still open during coronavirus, I built a framework that uses Markdown files and creates a local directory website
 categories: laravel
-published: Mar 31 2020
+published_at: Mar 31 2020
 excerpt: A few months ago, I published an article about a static site generator I made called Cleaver. Before this weekend, I mainly was just letting it sit idle. Fixing a few issues that sprung up, figuring out what features I should be adding to it, et cetera.
 ---
 

@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Getting started with Amazon S3 storage in Laravel
+slug: getting-started-with-amazon-s3-storage-in-laravel
 description: I'll show you how to set up an Amazon S3 bucket to store images and files with your Laravel app using a few built-in methods.
 categories: laravel, aws
-published: Mar 12 2020
+published_at: Mar 12 2020
 excerpt: I've worked in the past on a few projects that use Amazon's S3 service to store images and files from Laravel applications. Even though the functionality is pretty much built into the framework, the process of getting started can be a little jarring, especially to those who don't have a whole lot of experience with the AWS suite.
 ---
 

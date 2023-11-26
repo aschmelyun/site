@@ -1,9 +1,9 @@
 ---
-view: layout.post
 title: Keyboard shortcuts to drastically increase your productivity
+slug: keyboard-shortcuts-to-drastically-increase-your-productivity
 description: Here's some useful and lesser-known keyboard shortcuts for a few apps and websites that you might regularly use as a web developer or designer.
-categories: productivity, beginners
-published: Jan 17 2022
+categories: productivity
+published_at: Jan 17 2022
 excerpt: Over the last three years, I've been adding to and maintaining a keyboard shortcuts website called Use The Keyboard. Over that time I've amassed some 5100 individual shortcuts spread out across 85 apps, programs, and websites. In this article, I'm going to break down a select few from a variety of programs and sites that I use on a regular basis as a web developer (and occasional designer).
 ---
 
