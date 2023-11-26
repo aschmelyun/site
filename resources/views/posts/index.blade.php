@@ -1,6 +1,6 @@
-<x-layout>
+<x-layout :post="null">
     <x-background></x-background>
-    <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-loose text-gray-900 mt-8">
+    <h1 class="text-3xl lg:leading-relaxed font-semibold leading-loose text-gray-900 mt-8">
         All Blog Posts
     </h1>
     @foreach($posts as $post)

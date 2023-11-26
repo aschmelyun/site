@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Post;
+use App\Models\Project;
 use GrahamCampbell\Markdown\Facades\Markdown;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -38,3 +39,9 @@ Route::get('/blog/{post:slug}', function (Post $post) {
         'content' => Markdown::convert($post->content)->getContent()
     ]);
 })->name('posts.show');
+
+Route::get('/projects', function () {
+    return view('projects.index', [
+        'projects' => Project::all()
+    ]);
+});

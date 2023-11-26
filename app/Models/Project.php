@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Orbit\Concerns\Orbital;
 
-class Post extends Model
+class Project extends Model
 {
     use Orbital;
 
@@ -14,10 +14,8 @@ class Post extends Model
     {
         $table->string('title');
         $table->string('slug');
-        $table->string('description');
         $table->string('categories');
-        $table->timestamp('published_at');
-        $table->text('excerpt');
+        $table->integer('github_stars');
     }
 
     public function getKeyName(): string

@@ -1,14 +1,19 @@
-<x-layout>
+<x-layout :post="$post">
     <x-background></x-background>
-    <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-loose text-gray-900 mt-8">
-        {{ $post->title }}
-    </h1>
-    <div class="flex items-end">
-        <div>
-            <x-categories>{{ $post->categories }}</x-categories>
+    <header>
+        <h1 class="text-3xl lg:leading-relaxed font-semibold leading-loose text-gray-900 mt-8">
+            {{ $post->title }}
+        </h1>
+        <div class="flex items-end">
+            <div>
+                <x-categories>{{ $post->categories }}</x-categories>
+            </div>
+            <div class="ml-2 text-slate-600">
+                <span class="text-sm">{{ $post->published_at }}</span>
+            </div>
         </div>
-    </div>
-    <div class="mt-8 leading-relaxed mb-8 mt-4 bg-white rounded-lg py-8 px-8">
+    </header>
+    <main class="mt-8 leading-relaxed mb-8 mt-4 bg-white rounded-lg py-8 px-8">
         <div class="prose prose-lg mx-auto">
             {!! $content !!}
 
@@ -23,5 +28,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </x-layout>

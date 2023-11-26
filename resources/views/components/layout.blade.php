@@ -10,12 +10,38 @@
     <link href="https://fonts.bunny.net/css?family=dm-serif-display:400|poppins:400,400i,600,700,700i" rel="stylesheet" />
 
     @vite('resources/css/app.css')
+
+    @if (isset($post))
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              "headline": "{{ $post->title }}",
+              "image": "{{ env('APP_URL') . '/assets/images/blog/' . $post->slug . '.jpg' }}",
+              "author": {
+                "@type": "Person",
+                "name": "Andrew Schmelyun",
+                "url": "https://aschmelyun.com"
+              },
+              "publisher": {
+                "@type": "Person",
+                "name": "Andrew Schmelyun",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "{{ env('APP_URL') . '/assets/images/andrew-schmelyun-profile.jpg' }}"
+                }
+              },
+              "datePublished": "{{ date('Y-m-d', strtotime($post->published_at)) }}",
+              "dateModified": "{{ date('Y-m-d', strtotime($post->modified_at ?? $post->published_at)) }}"
+            }
+        </script>
+    @endif
 </head>
 <body class="antialiased">
-    <div class="max-w-4xl mx-auto pb-6 md:pb-12 text-gray-900">
-        <x-header></x-header>
-        {{ $slot }}
-        <x-footer></x-footer>
-    </div>
+<div class="max-w-4xl mx-auto pb-6 md:pb-12 text-gray-900">
+    <x-header></x-header>
+    {{ $slot }}
+    <x-footer></x-footer>
+</div>
 </body>
 </html>

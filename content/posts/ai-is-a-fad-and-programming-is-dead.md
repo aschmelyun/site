@@ -1,5 +1,4 @@
 ---
-view: layout.post
 title: AI is a fad and programming is dead
 slug: ai-is-a-fad-and-programming-is-dead
 description: An attempt at a nuanced take on how things like ChatGPT, AutoGPT, LLMs, and AI in general are going to affect development jobs from here on out.
