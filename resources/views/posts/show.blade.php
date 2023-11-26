@@ -1,4 +1,4 @@
-<x-layout :post="$post">
+<x-layout :post="$post" :title="$post->title">
     <x-background></x-background>
     <header>
         <h1 class="text-3xl lg:leading-relaxed font-semibold leading-loose text-gray-900 mt-8">

@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout title="Home">
     <x-background></x-background>
     <div class="flex mt-0 lg:mt-8">
         <div class="relative z-10 w-2/3 mt-4 lg:mt-16">

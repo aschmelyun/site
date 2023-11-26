@@ -33,7 +33,11 @@ Route::get('/blog', function (Request $request) {
     ]);
 })->name('posts.index');
 
-Route::get('/blog/{post:slug}', function (Post $post) {
+Route::get('/blog/{post:slug}', function (Request $request, Post $post) {
+    if (substr($_SERVER['REQUEST_URI'], -1) !== '/') {
+        return redirect()->to($request->url() . '/', 301);
+    }
+
     return view('posts.show', [
         'post' => $post,
         'content' => Markdown::convert($post->content)->getContent()
