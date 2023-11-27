@@ -1,0 +1,36 @@
+name: Deploy to Production
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Compile site assets and deploy to server
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: 'placeholder'
+
+      - name: Adding known hosts
+        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Install dependencies
+        run: |
+          composer install
+          npm install
+
+      - name: Build production assets
+        run: |
+          npm run build
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --exclude=.git/ --exclude=node_modules/ --exclude=storage/ . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_PATH }}
