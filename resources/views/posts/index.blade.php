@@ -15,9 +15,9 @@
                     <span class="text-sm">{{ $post->published_at->format('M j, Y') }}</span>
                 </div>
             </div>
-            <a href="{{ route('posts.show', $post->slug) }}" class="inline-block text-xl font-semibold mt-3 transition-colors hover:text-slate-600">{{ $post->title }}</a>
+            <a href="/blog/{{ $post->slug }}/" class="inline-block text-xl font-semibold mt-3 transition-colors hover:text-slate-600">{{ $post->title }}</a>
             <p class="text-slate-700 mt-2 leading-loose">{{ $post->excerpt }}</p>
-            <p class="text-slate-700 mt-2 leading-loose"><a href="/blog/{{ $post->slug }}" class="text-sm font-semibold underline hover:no-underline">Read more &rarr;</a></p>
+            <p class="text-slate-700 mt-2 leading-loose"><a href="/blog/{{ $post->slug }}/" class="text-sm font-semibold underline hover:no-underline">Read more &rarr;</a></p>
         </div>
     @endforeach
 </x-layout>

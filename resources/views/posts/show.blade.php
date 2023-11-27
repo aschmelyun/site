@@ -1,7 +1,7 @@
 <x-layout :post="$post" :title="$post->title" :description="$post->description">
     <x-background></x-background>
     <header class="px-4 md:px-0">
-        <h1 class="text-3xl lg:leading-relaxed font-semibold leading-snug text-gray-900 mt-8">
+        <h1 class="text-3xl lg:leading-snug font-semibold leading-snug text-gray-900 mt-8 mb-2">
             {{ $post->title }}
         </h1>
         <div class="flex items-end mt-4 md:mt-0">
