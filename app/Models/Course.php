@@ -15,6 +15,7 @@ class Course extends Model
         $table->string('title');
         $table->string('slug');
         $table->string('categories');
+        $table->string('thumbnail');
         $table->string('link');
     }
 

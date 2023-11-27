@@ -2,14 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use App\Models\Post;
 use App\Models\Project;
 use GrahamCampbell\Markdown\Facades\Markdown;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 class SiteController extends Controller
 {
-    public function posts(Request $request)
+    public function posts(Request $request): View
     {
         $posts = Post::latest('published_at')
             ->get();
@@ -29,7 +31,7 @@ class SiteController extends Controller
         ]);
     }
 
-    public function post(Post $post)
+    public function post(Post $post): View
     {
         return view('posts.show', [
             'post' => $post,
@@ -37,12 +39,14 @@ class SiteController extends Controller
         ]);
     }
 
-    public function courses()
+    public function courses(): View
     {
-
+        return view('courses.index', [
+            'courses' => Course::all()
+        ]);
     }
 
-    public function projects()
+    public function projects(): View
     {
         return view('projects.index', [
             'projects' => Project::all()

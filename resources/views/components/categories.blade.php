@@ -13,6 +13,8 @@ $dotCategoryMap = [
     'productivity' => 'bg-pink-500',
     'wordpress' => 'bg-sky-500',
     'aws' => 'bg-orange-500',
+    'premium' => 'bg-blue-500',
+    'free' => 'bg-red-500',
 ];
 @endphp
 @foreach(explode(',', $slot) as $category)

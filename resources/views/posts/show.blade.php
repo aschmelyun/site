@@ -14,7 +14,7 @@
         </div>
     </header>
     <main class="mt-8 leading-relaxed mb-8 mt-4 bg-white rounded-lg py-8 px-4 md:px-8">
-        <div class="prose prose-lg mx-auto">
+        <div class="prose md:prose-lg prose-h2:text-2xl prose-h2:mb-4 mx-auto">
             {!! $content !!}
 
             <div>
