@@ -33,4 +33,4 @@ jobs:
 
       - name: Deploy via rsync
         run: |
-          rsync -avz --exclude=.git/ --exclude=node_modules/ --exclude=storage/ . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_PATH }}
+          rsync -avz --exclude=.git/ --exclude=node_modules/ . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_PATH }}
