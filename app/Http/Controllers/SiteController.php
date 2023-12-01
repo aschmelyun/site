@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Course;
+use App\Models\Lesson;
 use App\Models\Post;
 use App\Models\Project;
 use GrahamCampbell\Markdown\Facades\Markdown;
@@ -44,6 +45,19 @@ class SiteController extends Controller
         return view('courses.index', [
             'courses' => Course::all()
         ]);
+    }
+
+    public function course(Course $course): View
+    {
+        return view('courses.show', [
+            'course' => $course,
+            'content' => Markdown::convert($course->content)->getContent()
+        ]);
+    }
+
+    public function lesson(Course $course, Lesson $lesson)
+    {
+        return $lesson;
     }
 
     public function projects(): View

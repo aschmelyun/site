@@ -24,6 +24,12 @@ Route::group(['middleware' => AddTrailingSlash::class], function () {
     Route::get('/courses/', [SiteController::class, 'courses'])
         ->name('courses.index');
 
+    Route::get('/courses/{course}', [SiteController::class, 'course'])
+        ->name('courses.show');
+
+    Route::get('/courses/{course}/{lesson}', [SiteController::class, 'lesson'])
+        ->name('lessons.show');
+
     Route::get('/projects', [SiteController::class, 'projects'])
         ->name('projects.index');
 
