@@ -24,7 +24,7 @@
                 </div>
                 <p class="mt-0">Subscribe using the form below and about 1-2 times a month you'll receive an email containing helpful hints, new packages, and interesting articles I've found on PHP, JavaScript, Docker and more.</p>
                 <div>
-                    <iframe src="https://aschmelyun.substack.com/embed" class="h-24 overflow-hidden" width="100%" height="320" style="border:0px; background:#F3F4F6;" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://aschmelyun.substack.com/embed" class="h-32 overflow-hidden" width="100%" height="320" style="border:0px; background:#F3F4F6;" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
