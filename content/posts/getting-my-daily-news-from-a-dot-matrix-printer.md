@@ -14,7 +14,7 @@ I recently purchased a dot matrix printer from eBay, and thought it would be a g
 Printer ASMR noises in the video below 👇
 
 <video width="270" height="360" controls title="Dotmatrix Printing Example" style="margin:0px auto">
-  <source src="/storage/images/dotmatrix_example_2_bt709.mp4" type="video/mp4">
+  <source src="/storage/images/blog/dotmatrix_example_2_bt709.mp4" type="video/mp4">
 </video>
 
 I'll take this article to dive in and show you what I used, how I set it up, and the PHP script that powers it all.
