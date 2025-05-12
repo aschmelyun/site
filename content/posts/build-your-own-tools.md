@@ -1,10 +1,10 @@
 ---
 title: Build your own tools (even if you reinvent the wheel)
 slug: build-your-own-tools
-description: Instead of doom-scrolling through my phone in the morning, I built an alternative with a Raspberry Pi, a dot matrix printer, and some PHP. 
+description: Crafting custom scripts, utilities, and apps gives you an excuse to learn something new while solving your exact needs.
 categories: discussions
 published_at: May 11 2025
-excerpt: For a while now I've started my day by unlocking my phone and scrolling through different news and social media sites to see what's going on. It's not exactly great for my mental health and I've been trying to cut down on screen time for a while. I still want to stay up-to-date though, especially after I get up in the morning. What about a custom "front page" printed out and ready for me, instead.
+excerpt: I'm a huge believer that if you're a software engineer, you should be building your own tools. Woodworkers famously use a variety of jigs for their projects. These are often pieced together with leftover scraps around the shop and are used for very specific cuts and assemblies. For instance, cutting the same exact angle on multiple boards, or ensuring that a dovetail always lines up on the first try.
 ---
 
 I'm a huge believer that if you're a software engineer, **you should be building your own tools**.
