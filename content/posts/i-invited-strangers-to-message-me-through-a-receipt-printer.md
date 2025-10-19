@@ -16,7 +16,7 @@ So I built it! ➡️ [ping.aschmelyun.com](https://ping.aschmelyun.com)
 A page on my personal website where you can type up a message, and as soon as you hit send it's delivered and printed out right on my desk.
 
 <video controls>
-    <source src="/public/videos/receipt-example.mp4" type="video/mp4">
+    <source src="/storage/videos/receipt-example.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -30,7 +30,7 @@ Let's talk first about the printer, and what I have it hooked up to.
 
 This is my Epson TM-T88IV thermal receipt printer, and I got it off of eBay for about $50 USD. If you don't know how these work, it's pretty fascinating. Receipt paper is coated in a substance that reacts to heat. So instead of using ink to print, the print head heats up small areas of this paper line-by-line. This basically means that as long as the print head is functional, you'll never have to replace ink cartridges or ribbons.
 
-![a photo of a receipt printer with a no deploys on fridays sticker](/public/images/blog/receipt-printer.jpg)
+![a photo of a receipt printer with a no deploys on fridays sticker](/storage/images/blog/receipt-printer.jpg)
 
 
 In order to communicate with the printer, I need to send it commands in a specific format known as [ESC/POS](https://en.wikipedia.org/wiki/ESC/P), a proprietary language that all (or, most?) Epson printers can understand.
@@ -135,7 +135,7 @@ Since pushing this live and talking about it on Twitter, TikTok, and Bluesky, I'
 
 It's been about a month, and I've received well over a _thousand_ different pings from people all around the world.
 
-![a pile of receipts on my office ground that I woke up to one morning](/public/images/blog/receipts-on-ground.jpg)
+![a pile of receipts on my office ground that I woke up to one morning](/storage/images/blog/receipts-on-ground.jpg)
 
 Now, most people would probably be a little hesitant about opening up a form on the internet and letting them leave completely anonymous messages with no filtering or regulation.
 
@@ -143,11 +143,11 @@ But I like the thrill of danger I guess, and imagine my surprise that the majori
 
 Some of these messages include dope ASCII art, funny poems, recipes, memes and copypastas, and fake receipts.
 
-![a grid of 4 different receipts with ascii art, fake items, and memes](/public/images/blog/receipt-collage.jpg)
+![a grid of 4 different receipts with ascii art, fake items, and memes](/storage/images/blog/receipt-collage.jpg)
 
 A large portion of them included some kind of location, like "Hello from (state/country)". This prompted me to buy a large world map and pin each of their unique transaction numbers to the location mentioned in the message. So far I have about 200 pins from 40 different countries!
 
-![a photo of a world map with different small numbers pinned to various cities](/public/images/blog/receipts-map.jpg)
+![a photo of a world map with different small numbers pinned to various cities](/storage/images/blog/receipts-map.jpg)
 
 By far the biggest section of messages came from people who were telling me how much they enjoyed this simple act of anonymous connection through some kind of physical medium.
 
