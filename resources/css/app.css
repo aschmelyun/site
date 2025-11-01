@@ -35,7 +35,7 @@ code.torchlight .line .line-number {
 
 .highlight:after {
     content: '';
-    @apply block absolute left-0 w-full bottom-1.5 md:bottom-3 h-2 -z-10;
+    @apply block absolute left-0 w-full bottom-1 h-2 -z-10;
 }
 
 .highlight.laravel:after {
@@ -48,6 +48,34 @@ code.torchlight .line .line-number {
 
 .highlight.docker:after {
     background: #1d63ed;
+}
+
+.highlight.fun:after {
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='8' viewBox='0 0 40 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 0 4 Q 5 0, 10 4 Q 15 8, 20 4 Q 25 0, 30 4 Q 35 8, 40 4' stroke='%23e879f9' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 40px 12px;
+    background-position: 0 bottom;
+    height: 0.75rem;
+}
+
+.highlight.build:after {
+    background: repeating-linear-gradient(
+        -45deg,
+        #fcd34d,
+        #fcd34d 8px,
+        #1f2937 8px,
+        #1f2937 16px
+    );
+    height: 0.5rem;
+}
+
+.highlight.teach:after {
+    background-image: url("data:image/svg+xml,%3Csvg width='200' height='14' viewBox='0 0 200 14' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cfilter id='chalk'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' result='noise'/%3E%3CfeColorMatrix in='noise' type='matrix' values='0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.5 1.5' result='opacity'/%3E%3CfeComposite in='SourceGraphic' in2='opacity' operator='in'/%3E%3C/filter%3E%3C/defs%3E%3Crect x='0' y='1' width='200' height='12' fill='%2351906a' filter='url(%23chalk)' rx='2'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    background-position: 0 bottom;
+    border-radius: 999px;
+    height: 0.8rem;
 }
 
 .animate-soft {

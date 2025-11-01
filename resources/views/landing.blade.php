@@ -4,7 +4,7 @@
         <div class="relative z-10 w-full md:w-2/3 mt-4 lg:mt-16">
             <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-snug text-gray-900">
                 {{-- I'm Andrew, a software engineer and content creator trying to have more <span class="highlight docker">fun</span> --}}
-                I'm just trying to have fun, build things, and teach people
+                I'm just trying to have <span class="highlight fun">fun</span>, <span class="highlight build">build</span> things, and <span class="highlight teach">teach</span> people
             </h1>
             <p class="text-base mt-4 text-slate-700 leading-relaxed">I'm Andrew, a full-stack software engineer and content creator with a passion for old hardware, batteries-included frameworks, and the web as a platform. Check out my blog or see some of my projects on any of the links below. Thanks for stopping by!</p>
             <div class="flex items-center justify-start mt-8">
