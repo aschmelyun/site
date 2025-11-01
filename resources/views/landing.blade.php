@@ -3,9 +3,10 @@
     <div class="flex mt-0 lg:mt-8 px-4 md:px-0">
         <div class="relative z-10 w-full md:w-2/3 mt-4 lg:mt-16">
             <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-snug text-gray-900">
-                Software engineer and content creator with a love for <span class="highlight laravel">Laravel</span>, <span class="highlight vue">Vue</span>, and <span class="highlight docker">Docker</span>
+                {{-- I'm Andrew, a software engineer and content creator trying to have more <span class="highlight docker">fun</span> --}}
+                I'm just trying to have fun, build things, and teach people
             </h1>
-            <p class="text-base mt-4 text-slate-700 leading-relaxed">Hey everyone, Andrew here! I'm a full-stack software engineer and content creator working mainly with PHP and JavaScript. You can find my content and projects on any of the links below.</p>
+            <p class="text-base mt-4 text-slate-700 leading-relaxed">I'm Andrew, a full-stack software engineer and content creator with a passion for old hardware, batteries-included frameworks, and the web as a platform. Check out my blog or see some of my projects on any of the links below. Thanks for stopping by!</p>
             <div class="flex items-center justify-start mt-8">
                 <a class="block mr-8 md:mr-12 fill-current text-gray-900 hover:text-slate-500 transform hover:-translate-y-1 transition-all duration-200" href="https://github.com/aschmelyun" target="_blank" rel="noreferrer">
                     <svg class="w-10 h-10" viewBox="0 0 53 52" xmlns="http://www.w3.org/2000/svg">
