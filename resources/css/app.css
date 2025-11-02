@@ -76,6 +76,8 @@ code.torchlight .line .line-number {
     background-position: 0 bottom;
     border-radius: 999px;
     height: 0.8rem;
+    transform: rotate(-2deg);
+    z-index: 999;
 }
 
 .animate-soft {

@@ -26,9 +26,7 @@
             </div>
         </div>
         <div class="hidden md:block relative ml-8 w-1/3">
-            <x-logo>Laravel</x-logo>
-            <x-logo>Vue</x-logo>
-            <x-logo>Docker</x-logo>
+            <x-receipt></x-receipt>
         </div>
     </div>
     <div class="mt-16 md:mt-24 px-4 md:px-0">
