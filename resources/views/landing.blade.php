@@ -4,7 +4,7 @@
         <div class="relative z-10 w-full md:w-2/3 mt-4 lg:mt-16">
             <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-snug text-gray-900">
                 {{-- I'm Andrew, a software engineer and content creator trying to have more <span class="highlight docker">fun</span> --}}
-                I'm just trying to have <span class="highlight fun">fun</span>, <span class="highlight build">build</span> things, and <span class="highlight teach">teach</span> people
+                I'm just trying to have <span class="highlight fun font-serif italic font-medium">fun</span>,<br><span class="highlight build font-serif italic font-medium">build</span> things, and <span class="highlight teach font-serif italic font-medium">teach</span> people
             </h1>
             <p class="text-base mt-4 text-slate-700 leading-relaxed">I'm Andrew, a full-stack software engineer and content creator with a passion for old hardware, batteries-included frameworks, and the web as a platform. Check out my blog or see some of my projects on any of the links below. Thanks for stopping by!</p>
             <div class="flex items-center justify-start mt-8">
@@ -23,10 +23,15 @@
                         <path d="M56.9023 6.93359C56.2695 4.40234 54.2656 2.39844 51.8398 1.76562C47.3047 0.5 29.375 0.5 29.375 0.5C29.375 0.5 11.3398 0.5 6.80469 1.76562C4.37891 2.39844 2.375 4.40234 1.74219 6.93359C0.476562 11.3633 0.476562 20.8555 0.476562 20.8555C0.476562 20.8555 0.476562 30.2422 1.74219 34.7773C2.375 37.3086 4.37891 39.207 6.80469 39.8398C11.3398 41 29.375 41 29.375 41C29.375 41 47.3047 41 51.8398 39.8398C54.2656 39.207 56.2695 37.3086 56.9023 34.7773C58.168 30.2422 58.168 20.8555 58.168 20.8555C58.168 20.8555 58.168 11.3633 56.9023 6.93359ZM23.4688 29.3984V12.3125L38.4453 20.8555L23.4688 29.3984Z"></path>
                     </svg>
                 </a>
+                <a class="block mr-8 md:mr-12 fill-current text-gray-900 hover:text-slate-500 transform hover:-translate-y-1 transition-all duration-200" href="https://tiktok.com/@aschmelyun" target="_blank" rel="noreferrer">
+                    <svg class="w-10 h-10" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M448 209.9a210.1 210.1 0 0 1-122.8-39.3v178.8A162.6 162.6 0 1 1 185 188.3v89.3a74.6 74.6 0 1 0 52.2 71.2V0h88a121.2 121.2 0 0 0 1.9 22.2 122.2 122.2 0 0 0 21.4 52.9 123.4 123.4 0 0 0 35.2 35.2A121.4 121.4 0 0 0 448 132.3z"></path>
+                    </svg>
+                </a>
             </div>
         </div>
         <div class="hidden md:block relative ml-8 w-1/3">
-            <x-receipt></x-receipt>
+            <x-receipt posts-count="{{ $postsCount }}"></x-receipt>
         </div>
     </div>
     <div class="mt-16 md:mt-24 px-4 md:px-0">

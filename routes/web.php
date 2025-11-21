@@ -9,7 +9,8 @@ Route::get('/', function () {
     return view('landing', [
         'posts' => Post::latest('published_at')
             ->limit(5)
-            ->get()
+            ->get(),
+        'postsCount' => Post::count(),
     ]);
 });
 
@@ -26,5 +27,9 @@ Route::group(['middleware' => AddTrailingSlash::class], function () {
 
     Route::get('/projects', [SiteController::class, 'projects'])
         ->name('projects.index');
+
+    Route::get('/contact', function () {
+        return view('contact');
+    })->name('contact');
 
 });
