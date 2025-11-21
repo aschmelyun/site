@@ -2,9 +2,8 @@
     <x-background></x-background>
     <div class="flex mt-0 lg:mt-8 px-4 md:px-0">
         <div class="relative z-10 w-full md:w-2/3 mt-4 lg:mt-16">
-            <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-snug text-gray-900">
-                {{-- I'm Andrew, a software engineer and content creator trying to have more <span class="highlight docker">fun</span> --}}
-                I'm just trying to have <span class="highlight fun font-serif italic font-medium">fun</span>,<br><span class="highlight build font-serif italic font-medium">build</span> things, and <span class="highlight teach font-serif italic font-medium">teach</span> people
+            <h1 class="text-3xl lg:text-4xl lg:leading-relaxed font-semibold leading-snug text-gray-900 pr-0 md:pr-6">
+                I'm just trying to have <span class="highlight fun font-serif italic font-medium">fun</span>, <span class="highlight build font-serif italic font-medium">build</span> things, and <span class="highlight teach font-serif italic font-medium">teach</span> people
             </h1>
             <p class="text-base mt-4 text-slate-700 leading-relaxed">I'm Andrew, a full-stack software engineer and content creator with a passion for old hardware, batteries-included frameworks, and the web as a platform. Check out my blog or see some of my projects on any of the links below. Thanks for stopping by!</p>
             <div class="flex items-center justify-start mt-8">
