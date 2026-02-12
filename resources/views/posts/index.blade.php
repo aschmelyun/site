@@ -1,4 +1,4 @@
-<x-layout :post="null" title="Blog" description="Read along and learn more about PHP, Laravel, JavaScript, Vue, and Docker.">
+<x-layout :post="null" title="Blog" description="Software engineer with too many ideas and a passion for tinkering.">
     <x-background></x-background>
     <header class="px-4 md:px-0">
         <h1 class="text-3xl lg:leading-relaxed font-semibold leading-snug text-gray-900 mt-8">
