@@ -1,4 +1,4 @@
-<x-layout title="Home" description="I'm a full-stack software engineer and content creator with a love for PHP, JavaScript, and Docker.">
+<x-layout title="Home" description="Software engineer with too many ideas and a passion for tinkering.">
     <x-background></x-background>
     <div class="flex mt-0 lg:mt-8 px-4 md:px-0">
         <div class="relative z-10 w-full md:w-2/3 mt-4 lg:mt-16">
