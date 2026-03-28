@@ -21,7 +21,7 @@
                 <div class="flex items-center justify-between">
                     <h2>My Newsletter</h2>
                 </div>
-                <p class="mt-0">Subscribe using the form below and about 1-2 times a month you'll receive an email containing helpful hints, new packages, and interesting articles I've found on PHP, JavaScript, Docker and more.</p>
+                <p class="text-gray-700 leading-relaxed">Subscribe using the form below and about 2-3 times a month you'll receive an email containing project updates, video previews, and inspiring links I've found across the web dev and tech space.</p>
                 <div class="mt-8">
                     <script async src="https://eocampaign1.com/form/61927954-2aee-11f1-8527-b3f9765ac105.js" data-form="61927954-2aee-11f1-8527-b3f9765ac105"></script>
                 </div>
