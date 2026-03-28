@@ -23,8 +23,8 @@
                     <a href="https://aschmelyun.substack.com/latest" target="_blank" rel="noopener" class="hidden md:inline">Read sample</a>
                 </div>
                 <p class="mt-0">Subscribe using the form below and about 1-2 times a month you'll receive an email containing helpful hints, new packages, and interesting articles I've found on PHP, JavaScript, Docker and more.</p>
-                <div>
-                    <iframe src="https://aschmelyun.substack.com/embed" class="h-32 overflow-hidden" width="100%" height="320" style="border:0px; background:#F3F4F6;" frameborder="0" scrolling="no"></iframe>
+                <div class="mt-8">
+                    <script async src="https://eocampaign1.com/form/61927954-2aee-11f1-8527-b3f9765ac105.js" data-form="61927954-2aee-11f1-8527-b3f9765ac105"></script>
                 </div>
             </div>
         </div>
