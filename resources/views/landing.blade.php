@@ -108,11 +108,10 @@
         <div class="mt-16 md:mt-28">
             <div class="flex items-center justify-between mb-4 md:mb-8">
                 <h2 class="text-3xl font-semibold">My Newsletter</h2>
-                <a href="https://aschmelyun.substack.com/latest" target="_blank" rel="noopener" class="hidden md:inline shadow-none hover:shadow-sm py-1.5 px-4 bg-white rounded-full border border-slate-200 hover:border-slate-300">Read sample</a>
             </div>
-            <p class="text-gray-700 leading-relaxed">Subscribe using the form below and about 1-2 times a month you'll receive an email containing helpful hints, new packages, and interesting articles I've found on PHP, JavaScript, Docker and more.</p>
-            <div>
-                <iframe src="https://aschmelyun.substack.com/embed" class="h-32 overflow-hidden" width="100%" height="320" style="border:0px; background:#F3F4F6;" frameborder="0" scrolling="no"></iframe>
+            <p class="text-gray-700 leading-relaxed">Subscribe using the form below and about 2-3 times a month you'll receive an email containing project updates, video previews, and inspiring links I've found across the web dev and tech space.</p>
+            <div class="mt-8">
+                <script async src="https://eocampaign1.com/form/61927954-2aee-11f1-8527-b3f9765ac105.js" data-form="61927954-2aee-11f1-8527-b3f9765ac105"></script>
             </div>
         </div>
     </div>
