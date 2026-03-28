@@ -20,7 +20,6 @@
             <div>
                 <div class="flex items-center justify-between">
                     <h2>My Newsletter</h2>
-                    <a href="https://aschmelyun.substack.com/latest" target="_blank" rel="noopener" class="hidden md:inline">Read sample</a>
                 </div>
                 <p class="mt-0">Subscribe using the form below and about 1-2 times a month you'll receive an email containing helpful hints, new packages, and interesting articles I've found on PHP, JavaScript, Docker and more.</p>
                 <div class="mt-8">
