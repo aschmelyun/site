@@ -27,14 +27,14 @@ The supply list for this project was pretty small, and with the exception of the
 
 - Dot matrix printer
 - Raspberry Pi Zero W [[link](https://vilros.com/products/raspberry-pi-zero-w-basic-starter-kit-1)]
-- Serial to USB adapter [[link](https://www.amazon.com/dp/B00IDU0T1Y?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)]
+- Parallel printer port to USB adapter [[link](https://www.amazon.com/dp/B00IDU0T1Y?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)]
 - Power supply
 
-The printer I purchased was a [Star NP-10](https://www.computerhistory.org/collections/catalog/102666267) from what looks like the mid-80's. I can't be 100% sure, but any dot matrix printer with a serial port should do the trick. The prices range from about $80-120 USD, but I was able to get this one for about half that price because it was marked as "unsure if working".
+The printer I purchased was a [Star NP-10](https://www.computerhistory.org/collections/catalog/102666267) from what looks like the mid-80's. I can't be 100% sure, but any dot matrix printer with a parallel port should do the trick. The prices range from about $80-120 USD, but I was able to get this one for about half that price because it was marked as "unsure if working".
 
 It did need a little cleaning up and some tuning of the ink ribbon cartridge (isn't that cool, it's like a typewriter!), but after that it fired right up and ran through the test page print.
 
-After that, I hooked everything up. The Raspberry Pi is connected to my WiFi, and then via USB to the serial port of the printer. After turning on the printer and `ssh`ing into the Pi, I can verify that the printer is available at `/dev/usb/lp0`.
+After that, I hooked everything up. The Raspberry Pi is connected to my WiFi, and then via USB to the parallel port of the printer. After turning on the printer and `ssh`ing into the Pi, I can verify that the printer is available at `/dev/usb/lp0`.
 
 Now, **how do I get this thing to print?**
 
