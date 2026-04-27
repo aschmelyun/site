@@ -13,6 +13,7 @@
   <link href="https://fonts.bunny.net/css?family=dm-serif-display:400|poppins:400,400i,600,700,700i" rel="stylesheet" />
 
   @vite('resources/css/app.css')
+  @vite('resources/js/app.js')
 
   <meta name="description" content="{!! $description ?? '' !!}">
 
